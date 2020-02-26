@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Metehan Cekic</title>
+    <link>https://www.ece.ucsb.edu/~metehancekic/tr/post/</link>
+      <atom:link href="https://www.ece.ucsb.edu/~metehancekic/tr/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>tr</language>
+    <image>
+      <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
+      <title>Posts</title>
+      <link>https://www.ece.ucsb.edu/~metehancekic/tr/post/</link>
+    </image>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Metehan Cekic\* | Metehan Cekic</title>
+    <link>https://www.ece.ucsb.edu/~metehancekic/authors/metehan-cekic%5C/</link>
+      <atom:link href="https://www.ece.ucsb.edu/~metehancekic/authors/metehan-cekic%5C/index.xml" rel="self" type="application/rss+xml" />
+    <description>Metehan Cekic\*</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 21 Feb 2020 21:29:32 -0800</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
+      <title>Metehan Cekic\*</title>
+      <link>https://www.ece.ucsb.edu/~metehancekic/authors/metehan-cekic%5C/</link>
+    </image>
+    
+    <item>
+      <title>Robust Wireless Fingerprinting via Complex Valued Neural Networks</title>
+      <link>https://www.ece.ucsb.edu/~metehancekic/publication/robust-wireless-fingerprinting-via-complex-valued-neural-networks/</link>
+      <pubDate>Fri, 21 Feb 2020 21:29:32 -0800</pubDate>
+      <guid>https://www.ece.ucsb.edu/~metehancekic/publication/robust-wireless-fingerprinting-via-complex-valued-neural-networks/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

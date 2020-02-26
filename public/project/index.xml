@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Metehan Cekic</title>
+    <link>https://www.ece.ucsb.edu/~metehancekic/project/</link>
+      <atom:link href="https://www.ece.ucsb.edu/~metehancekic/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 25 Feb 2020 14:49:34 -0800</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
+      <title>Projects</title>
+      <link>https://www.ece.ucsb.edu/~metehancekic/project/</link>
+    </image>
+    
+    <item>
+      <title>Radio Frequency Machine Learning (RFML)</title>
+      <link>https://www.ece.ucsb.edu/~metehancekic/project/mywireless-fingerprinting/</link>
+      <pubDate>Tue, 25 Feb 2020 14:49:34 -0800</pubDate>
+      <guid>https://www.ece.ucsb.edu/~metehancekic/project/mywireless-fingerprinting/</guid>
+      <description>&lt;ul&gt;
+	&lt;li&gt;Our goal is to learn&amp;nbsp;&lt;strong&gt;&lt;em&gt;RF signatures&lt;/em&gt;&lt;/strong&gt;&amp;nbsp;that can distinguish between devices sending&amp;nbsp;&lt;em&gt;exactly&lt;/em&gt;&amp;nbsp;the same message. This is possible due to subtle hardware imperfections (labeled&amp;nbsp;&#34;nonlinearities&#34; in the figure below) unique to each device.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;Since the information in RF data resides in complex baseband, we employ CNNs with complex-valued weights to learn these signatures. This technique&amp;nbsp;does&amp;nbsp;not use&amp;nbsp;signal domain knowledge and can be used for any wireless protocol. We demonstrate its effectiveness for two protocols -&amp;nbsp;WiFi and ADS-B.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;architect.png&#34; alt=&#34;Simply Easy Learning&#34; width=&#34;600&#34;
+height=&#34;240&#34;&gt;&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;We show that this&amp;nbsp;approach is vulnerable to spoofing&amp;nbsp;when using&amp;nbsp;the entire packet:&amp;nbsp;the CNN focuses on&amp;nbsp;fields containing ID info (eg. MAC ID in WiFi) which can be easily spoofed. When using the preamble alone, reasonably high accuracies are obtained, and performance is significantly enhanced by noise augmentation.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+	&lt;li&gt;We also study robustness to confounding factors&amp;nbsp;in data collected over multiple days and locations, such as the carrier frequency offset (CFO), which drifts over time, and the wireless channel, which depends on the propagation environment. We show that carefully designed data augmentation is critical for learning robust wireless signatures.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;small&gt;&amp;nbsp;&lt;/small&gt;&lt;/p&gt;
+&lt;div class=&#34;field__item odd&#34;&gt;&lt;div class=&#34;entity entity-paragraphs-item paragraphs-item-related-publications-topic-group&#34;&gt;
+  &lt;div class=&#34;content&#34;&gt;
+    &lt;div class=&#34;field field--name-field-sub-topic-title field--type-text field--label-hidden&#34;&gt;&lt;div class=&#34;field__items&#34;&gt;&lt;div class=&#34;field__item even&#34;&gt;&lt;h3 class=&#34;&#34;&gt;Publications&lt;/h3&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;field field--name-field-related-publications field--type-entityreference field--label-hidden&#34;&gt;&lt;div class=&#34;field__items&#34;&gt;&lt;div class=&#34;field__item even&#34;&gt;	&lt;div role=&#34;article&#34; class=&#34;node node--simple-publication node--promoted contextual-links-region node--citation node--simple-publication--citation&#34;&gt;
+	  &lt;div class=&#34;node__content&#34;&gt;
+	    &lt;div class=&#34;field citation&#34;&gt;Soorya Gopalakrishnan*, &lt;b&gt; Metehan Cekic* &lt;/b&gt;,&amp;nbsp;Upamanyu Madhow, &#34;&lt;a href=&#34;https://www.ece.ucsb.edu/~metehancekic/publication/fingerprinting-2019-globecom/&#34; target=&#34;_self&#34;&gt;Robust Wireless Fingerprinting via Complex-Valued Neural Networks&lt;/a&gt;&#34;, &lt;i&gt;IEEE Global Communications Conference (Globecom)&lt;/i&gt;,&amp;nbsp;Waikoloa, Hawaii, Dec. 2019. 
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
