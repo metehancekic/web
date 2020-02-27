@@ -63,7 +63,7 @@ slides: ""
 
 <div class="field__item odd"><div class="entity entity-paragraphs-item paragraphs-item-related-publications-topic-group">
   <div class="content">
-    <div class="field field--name-field-sub-topic-title field--type-text field--label-hidden"><div class="field__items"><div class="field__item even"><h3 class="">Publications</h3></div></div></div>
+    <div class="field field--name-field-sub-topic-title field--type-text field--label-hidden"><div class="field__items"><div class="field__item even"><h3 class="">Yayınlar</h3></div></div></div>
 
 
 <div class="field field--name-field-related-publications field--type-entityreference field--label-hidden"><div class="field__items"><div class="field__item even">	<div role="article" class="node node--simple-publication node--promoted contextual-links-region node--citation node--simple-publication--citation">
