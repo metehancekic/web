@@ -17,7 +17,7 @@ external_link: ""
 image:
   caption: "Communication system"
   focal_point: "bottom"
-  preview_only: true
+  preview_only: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
@@ -61,14 +61,33 @@ slides: ""
 
 <p><small>&nbsp;</small></p>
 
-
 <div class="field__item odd"><div class="entity entity-paragraphs-item paragraphs-item-related-publications-topic-group">
   <div class="content">
-    <div class="field field--name-field-sub-topic-title field--type-text field--label-hidden"><div class="field__items"><div class="field__item even"><h3 class="">Publications</h3></div></div></div><div class="field field--name-field-related-publications field--type-entityreference field--label-hidden"><div class="field__items"><div class="field__item even">	<div role="article" class="node node--simple-publication node--promoted contextual-links-region node--citation node--simple-publication--citation">
+    <div class="field field--name-field-sub-topic-title field--type-text field--label-hidden"><div class="field__items"><div class="field__item even"><h3 class="">Publications</h3></div></div></div>
+
+
+<div class="field field--name-field-related-publications field--type-entityreference field--label-hidden"><div class="field__items"><div class="field__item even">	<div role="article" class="node node--simple-publication node--promoted contextual-links-region node--citation node--simple-publication--citation">
+	  <div class="node__content">
+	    <div class="field citation"> <b>Metehan Cekic*</b>,&nbsp;Soorya Gopalakrishnan*,&nbsp;Upamanyu Madhow, "<a href="https://arxiv.org/pdf/2002.10791.pdf" target="_self">Robust Wireless Fingerprinting: Generalizing Across Space and Time</a>", arXiv:2002.10791.
+
+
+<br/>
+<br/>
+
+</div></div></div>  </div>
+</div>
+</div>
+
+
+<div class="field field--name-field-related-publications field--type-entityreference field--label-hidden"><div class="field__items"><div class="field__item even">	<div role="article" class="node node--simple-publication node--promoted contextual-links-region node--citation node--simple-publication--citation">
 	  <div class="node__content">
 	    <div class="field citation">Soorya Gopalakrishnan*, <b> Metehan Cekic* </b>,&nbsp;Upamanyu Madhow, "<a href="https://www.ece.ucsb.edu/~metehancekic/publication/fingerprinting-2019-globecom/" target="_self">Robust Wireless Fingerprinting via Complex-Valued Neural Networks</a>", <i>IEEE Global Communications Conference (Globecom)</i>,&nbsp;Waikoloa, Hawaii, Dec. 2019. 
           
 </div></div></div>  </div>
 </div>
 </div>
+
+
+
+
 

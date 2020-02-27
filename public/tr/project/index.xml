@@ -34,13 +34,21 @@ height=&#34;240&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;small&gt;&amp;nbsp;&lt;/small&gt;&lt;/p&gt;
 &lt;div class=&#34;field__item odd&#34;&gt;&lt;div class=&#34;entity entity-paragraphs-item paragraphs-item-related-publications-topic-group&#34;&gt;
   &lt;div class=&#34;content&#34;&gt;
-    &lt;div class=&#34;field field--name-field-sub-topic-title field--type-text field--label-hidden&#34;&gt;&lt;div class=&#34;field__items&#34;&gt;&lt;div class=&#34;field__item even&#34;&gt;&lt;h3 class=&#34;&#34;&gt;Publications&lt;/h3&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;field field--name-field-related-publications field--type-entityreference field--label-hidden&#34;&gt;&lt;div class=&#34;field__items&#34;&gt;&lt;div class=&#34;field__item even&#34;&gt;	&lt;div role=&#34;article&#34; class=&#34;node node--simple-publication node--promoted contextual-links-region node--citation node--simple-publication--citation&#34;&gt;
+    &lt;div class=&#34;field field--name-field-sub-topic-title field--type-text field--label-hidden&#34;&gt;&lt;div class=&#34;field__items&#34;&gt;&lt;div class=&#34;field__item even&#34;&gt;&lt;h3 class=&#34;&#34;&gt;Publications&lt;/h3&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&#34;field field--name-field-related-publications field--type-entityreference field--label-hidden&#34;&gt;&lt;div class=&#34;field__items&#34;&gt;&lt;div class=&#34;field__item even&#34;&gt;	&lt;div role=&#34;article&#34; class=&#34;node node--simple-publication node--promoted contextual-links-region node--citation node--simple-publication--citation&#34;&gt;
+	  &lt;div class=&#34;node__content&#34;&gt;
+	    &lt;div class=&#34;field citation&#34;&gt; &lt;b&gt;Metehan Cekic*&lt;/b&gt;,&amp;nbsp;Soorya Gopalakrishnan*,&amp;nbsp;Upamanyu Madhow, &#34;&lt;a href=&#34;https://arxiv.org/pdf/2002.10791.pdf&#34; target=&#34;_self&#34;&gt;Robust Wireless Fingerprinting: Generalizing Across Space and Time&lt;/a&gt;&#34;, arXiv:2002.10791.
+&lt;br/&gt;
+&lt;br/&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;field field--name-field-related-publications field--type-entityreference field--label-hidden&#34;&gt;&lt;div class=&#34;field__items&#34;&gt;&lt;div class=&#34;field__item even&#34;&gt;	&lt;div role=&#34;article&#34; class=&#34;node node--simple-publication node--promoted contextual-links-region node--citation node--simple-publication--citation&#34;&gt;
 	  &lt;div class=&#34;node__content&#34;&gt;
 	    &lt;div class=&#34;field citation&#34;&gt;Soorya Gopalakrishnan*, &lt;b&gt; Metehan Cekic* &lt;/b&gt;,&amp;nbsp;Upamanyu Madhow, &#34;&lt;a href=&#34;https://www.ece.ucsb.edu/~metehancekic/publication/fingerprinting-2019-globecom/&#34; target=&#34;_self&#34;&gt;Robust Wireless Fingerprinting via Complex-Valued Neural Networks&lt;/a&gt;&#34;, &lt;i&gt;IEEE Global Communications Conference (Globecom)&lt;/i&gt;,&amp;nbsp;Waikoloa, Hawaii, Dec. 2019. 
 &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;  &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;
-</description>
+&lt;/div&gt;</description>
     </item>
     
   </channel>
