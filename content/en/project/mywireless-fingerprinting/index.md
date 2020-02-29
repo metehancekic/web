@@ -68,7 +68,7 @@ slides: ""
 
 <div class="field field--name-field-related-publications field--type-entityreference field--label-hidden"><div class="field__items"><div class="field__item even">	<div role="article" class="node node--simple-publication node--promoted contextual-links-region node--citation node--simple-publication--citation">
 	  <div class="node__content">
-	    <div class="field citation"> <b>Metehan Cekic*</b>,&nbsp;Soorya Gopalakrishnan*,&nbsp;Upamanyu Madhow, "<a href="https://arxiv.org/pdf/2002.10791.pdf" target="_self">Robust Wireless Fingerprinting: Generalizing Across Space and Time</a>", arXiv:2002.10791.
+	    <div class="field citation"> <b>Metehan Cekic*</b>,&nbsp;Soorya Gopalakrishnan*,&nbsp;Upamanyu Madhow, "<a href="https://web.ece.ucsb.edu/~metehancekic/publication/cekic-2020-robust/" target="_self">Robust Wireless Fingerprinting: Generalizing Across Space and Time</a>", arXiv:2002.10791.
 
 
 <br/>
