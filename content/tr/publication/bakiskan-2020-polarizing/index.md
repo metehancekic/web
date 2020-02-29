@@ -6,7 +6,7 @@ authors: ["Can Bakiskan", "Soorya Gopalakrishnan", "Metehan Cekic", "Upamanyu Ma
 publication_types: ["1"]
 abstract: ""
 featured: false
-publication: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+publication: "*IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)*"
 url_pdf: https://arxiv.org/pdf/2002.09580.pdf
 ---
 
