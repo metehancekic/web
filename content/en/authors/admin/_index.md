@@ -18,7 +18,7 @@ organizations:
   url: "https://ucsb.edu"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I received my B.S. degrees in Electrical and Electronics Engineering and Physics from Bogazici University, Istanbul, in 2017 and M.S degree in Electrical and Computer Engineering from University of California, Santa Barbara in 2019. I am currently a PhD student at UC Santa Barbara, working with Prof. Madhow in the WCS lab.
+bio: I received my B.S. degrees in Electrical and Electronics Engineering and Physics from Bogazici University, Istanbul, in 2017 and M.S degree in Electrical and Computer Engineering from University of California, Santa Barbara in 2019. I am currently a PhD student at UC Santa Barbara, working with Prof. Madhow in the WCSL lab.
 
 interests:
 - Deep Learning
