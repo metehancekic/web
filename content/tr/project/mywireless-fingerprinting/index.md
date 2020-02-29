@@ -1,8 +1,8 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Radio Frequency Machine Learning (RFML)"
-summary: "Extracting circuit-level fingerprints to distinguish between wireless devices sending exactly same message"
+title: "Radyo Frekansı Makine Öğrenmesi"
+summary: "Elektronik devrelere ait özniteliklerle aynı mesajları gönderen kablosuz cihazları sınıflandırma"
 authors: []
 tags: []
 categories: []
