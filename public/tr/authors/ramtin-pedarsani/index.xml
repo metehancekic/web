@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ramtin Pedarsani | Metehan Cekic</title>
+    <link>https://www.ece.ucsb.edu/~metehancekic/tr/authors/ramtin-pedarsani/</link>
+      <atom:link href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/ramtin-pedarsani/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ramtin Pedarsani</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>tr</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
+      <title>Ramtin Pedarsani</title>
+      <link>https://www.ece.ucsb.edu/~metehancekic/tr/authors/ramtin-pedarsani/</link>
+    </image>
+    
+    <item>
+      <title>Polarizing Front Ends for Robust CNNs</title>
+      <link>https://www.ece.ucsb.edu/~metehancekic/tr/publication/bakiskan-2020-polarizing/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.ece.ucsb.edu/~metehancekic/tr/publication/bakiskan-2020-polarizing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

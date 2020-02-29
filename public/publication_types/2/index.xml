@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Metehan Cekic</title>
+    <link>https://www.ece.ucsb.edu/~metehancekic/publication_types/2/</link>
+      <atom:link href="https://www.ece.ucsb.edu/~metehancekic/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
+      <title>2</title>
+      <link>https://www.ece.ucsb.edu/~metehancekic/publication_types/2/</link>
+    </image>
+    
+    <item>
+      <title>Robust Wireless Fingerprinting: Generalizing Across Space and Time</title>
+      <link>https://www.ece.ucsb.edu/~metehancekic/publication/cekic-2020-robust/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.ece.ucsb.edu/~metehancekic/publication/cekic-2020-robust/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

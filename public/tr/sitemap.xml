@@ -49,7 +49,7 @@
   
   <url>
     <loc>https://www.ece.ucsb.edu/~metehancekic/tr/publication_types/1/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -63,8 +63,23 @@
   </url>
   
   <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/publication_types/2/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/publication_types/2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/publication_types/2/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.ece.ucsb.edu/~metehancekic/tr/authors/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -78,8 +93,23 @@
   </url>
   
   <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/authors/can-bakiskan/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/authors/can-bakiskan/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/can-bakiskan/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.ece.ucsb.edu/~metehancekic/tr/authors/metehan-cekic/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -93,8 +123,23 @@
   </url>
   
   <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/publication/bakiskan-2020-polarizing/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/publication/bakiskan-2020-polarizing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/publication/bakiskan-2020-polarizing/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.ece.ucsb.edu/~metehancekic/tr/publication_types/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -109,7 +154,7 @@
   
   <url>
     <loc>https://www.ece.ucsb.edu/~metehancekic/tr/publication/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -119,6 +164,66 @@
                 rel="alternate"
                 hreflang="tr"
                 href="https://www.ece.ucsb.edu/~metehancekic/tr/publication/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/authors/ramtin-pedarsani/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/authors/ramtin-pedarsani/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/ramtin-pedarsani/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/publication/cekic-2020-robust/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/publication/cekic-2020-robust/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/publication/cekic-2020-robust/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/authors/soorya-gopalakrishnan/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/authors/soorya-gopalakrishnan/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/soorya-gopalakrishnan/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/authors/upamanyu-madhow/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/authors/upamanyu-madhow/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/upamanyu-madhow/"
                 />
   </url>
   
@@ -134,36 +239,6 @@
                 rel="alternate"
                 hreflang="tr"
                 href="https://www.ece.ucsb.edu/~metehancekic/tr/publication/fingerprinting-2019-globecom/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/authors/soorya-gopalakrishnan/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ece.ucsb.edu/~metehancekic/authors/soorya-gopalakrishnan/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/soorya-gopalakrishnan/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/authors/upamanyu-madhow/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ece.ucsb.edu/~metehancekic/authors/upamanyu-madhow/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/upamanyu-madhow/"
                 />
   </url>
   

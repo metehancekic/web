@@ -5,12 +5,28 @@
     <link>https://www.ece.ucsb.edu/~metehancekic/authors/upamanyu-madhow/</link>
       <atom:link href="https://www.ece.ucsb.edu/~metehancekic/authors/upamanyu-madhow/index.xml" rel="self" type="application/rss+xml" />
     <description>Upamanyu Madhow</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
       <title>Upamanyu Madhow</title>
       <link>https://www.ece.ucsb.edu/~metehancekic/authors/upamanyu-madhow/</link>
     </image>
+    
+    <item>
+      <title>Polarizing Front Ends for Robust CNNs</title>
+      <link>https://www.ece.ucsb.edu/~metehancekic/publication/bakiskan-2020-polarizing/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.ece.ucsb.edu/~metehancekic/publication/bakiskan-2020-polarizing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust Wireless Fingerprinting: Generalizing Across Space and Time</title>
+      <link>https://www.ece.ucsb.edu/~metehancekic/publication/cekic-2020-robust/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.ece.ucsb.edu/~metehancekic/publication/cekic-2020-robust/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Robust Wireless Fingerprinting via Complex-Valued Neural Networks</title>

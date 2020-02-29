@@ -5,12 +5,20 @@
     <link>https://www.ece.ucsb.edu/~metehancekic/publication_types/1/</link>
       <atom:link href="https://www.ece.ucsb.edu/~metehancekic/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
       <title>1</title>
       <link>https://www.ece.ucsb.edu/~metehancekic/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>Polarizing Front Ends for Robust CNNs</title>
+      <link>https://www.ece.ucsb.edu/~metehancekic/publication/bakiskan-2020-polarizing/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.ece.ucsb.edu/~metehancekic/publication/bakiskan-2020-polarizing/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Robust Wireless Fingerprinting via Complex-Valued Neural Networks</title>
