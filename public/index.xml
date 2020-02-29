@@ -5,12 +5,22 @@
     <link>https://www.ece.ucsb.edu/~metehancekic/</link>
       <atom:link href="https://www.ece.ucsb.edu/~metehancekic/index.xml" rel="self" type="application/rss+xml" />
     <description>Metehan Cekic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 25 Feb 2020 14:49:34 -0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 29 Feb 2020 14:56:42 -0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
       <title>Metehan Cekic</title>
       <link>https://www.ece.ucsb.edu/~metehancekic/</link>
     </image>
+    
+    <item>
+      <title>Reinforcement Learning For The Game Called &#34;Batak&#34;</title>
+      <link>https://www.ece.ucsb.edu/~metehancekic/project/reinforcement-learning-batak/</link>
+      <pubDate>Sat, 29 Feb 2020 14:56:42 -0800</pubDate>
+      <guid>https://www.ece.ucsb.edu/~metehancekic/project/reinforcement-learning-batak/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;arch.png&#34; alt=&#34;Simply Easy Learning&#34; width=&#34;600&#34;
+height=&#34;240&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Radio Frequency Machine Learning (RFML)</title>
