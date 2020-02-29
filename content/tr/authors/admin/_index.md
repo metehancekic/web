@@ -37,10 +37,10 @@ education:
     institution: Kaliforniya Üniversitesi, Santa Barbara
     year: 2019
   - course: Lisans, Elektrik Elektronik Mühendisliği
-    institution: Boğaziçi Üniversitesi, Turkey
+    institution: Boğaziçi Üniversitesi, Türkiye
     year: 2017
   - course: Lisans, Fizik
-    institution: Boğaziçi Üniversitesi, Turkey
+    institution: Boğaziçi Üniversitesi, Türkiye
     year: 2017
 
 # Social/Academic Networking
