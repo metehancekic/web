@@ -5,12 +5,20 @@
     <link>https://www.ece.ucsb.edu/~metehancekic/project/</link>
       <atom:link href="https://www.ece.ucsb.edu/~metehancekic/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 29 Feb 2020 14:56:42 -0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 05 Mar 2020 15:01:28 -0800</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
       <title>Projects</title>
       <link>https://www.ece.ucsb.edu/~metehancekic/project/</link>
     </image>
+    
+    <item>
+      <title>Adversarial Machine Learning</title>
+      <link>https://www.ece.ucsb.edu/~metehancekic/project/adversarial-machine-learning/</link>
+      <pubDate>Thu, 05 Mar 2020 15:01:28 -0800</pubDate>
+      <guid>https://www.ece.ucsb.edu/~metehancekic/project/adversarial-machine-learning/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Reinforcement Learning For The Game Called &#34;Batak&#34;</title>
