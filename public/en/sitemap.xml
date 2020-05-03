@@ -3,23 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.ece.ucsb.edu/~metehancekic/project/adversarial-machine-learning/</loc>
-    <lastmod>2020-03-05T15:01:28-08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://www.ece.ucsb.edu/~metehancekic/tr/project/adversarial-machine-learning/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ece.ucsb.edu/~metehancekic/project/adversarial-machine-learning/"
-                />
+    <loc>https://www.ece.ucsb.edu/~metehancekic/project/deep-illusion/</loc>
+    <lastmod>2020-05-03T13:36:47-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.ece.ucsb.edu/~metehancekic/</loc>
-    <lastmod>2020-03-05T15:01:28-08:00</lastmod>
+    <lastmod>2020-05-03T13:36:47-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="tr"
@@ -34,7 +24,7 @@
   
   <url>
     <loc>https://www.ece.ucsb.edu/~metehancekic/project/</loc>
-    <lastmod>2020-03-05T15:01:28-08:00</lastmod>
+    <lastmod>2020-05-03T13:36:47-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="tr"
@@ -44,6 +34,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.ece.ucsb.edu/~metehancekic/project/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/project/adversarial-machine-learning/</loc>
+    <lastmod>2020-03-05T15:01:28-08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/project/adversarial-machine-learning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/project/adversarial-machine-learning/"
                 />
   </url>
   
