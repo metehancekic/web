@@ -25,6 +25,15 @@ nav#navbar-main li.nav-item {
 
 // Use smaller avatar size in About widget on small devices.
 @include media-breakpoint-down(sm) {
+  .home-section.bg-image {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
+
+// Use smaller avatar size in About widget on small devices.
+@include media-breakpoint-down(sm) {
   .wg-about .avatar {
     width: 100px;
     height: 100px;
