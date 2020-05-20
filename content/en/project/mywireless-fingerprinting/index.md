@@ -3,9 +3,9 @@
 
 title: "Radio Frequency Machine Learning (RFML)"
 summary: "Extracting circuit-level fingerprints to distinguish between wireless devices sending exactly same message"
-authors: []
-tags: []
-categories: []
+authors: [admin, Soorya Gopalakrishnan]
+tags: [Deep Learning, Wireless Communication]
+categories: [Deep Learning, Wireless Communication]
 date: 2020-02-25T14:49:34-08:00
 
 # Optional external URL for project (replaces project detail page).

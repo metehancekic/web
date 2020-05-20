@@ -1,11 +1,11 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Adversarial Machine Learning"
+title: "Sparsifying Front Ends"
 summary: "Combating adversarial perturbations by exploiting sparsity of natural data."
-authors: []
-tags: []
-categories: []
+authors: [admin, Soorya Gopalakrishnan]
+tags: [Deep Learning]
+categories: [Deep Learning]
 date: 2020-03-05T15:01:28-08:00
 
 # Optional external URL for project (replaces project detail page).
@@ -38,4 +38,5 @@ url_video: ""
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
 slides: ""
+
 ---

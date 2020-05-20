@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
-title = "Research & Projects"
+title = "Projects"
 subtitle = ""
 
 [content]
@@ -21,17 +21,17 @@ subtitle = ""
   # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
   filter_default = 0
   
-  # [[content.filter_button]]
-  #   name = "All"
-  #   tag = "*"
+  [[content.filter_button]]
+    name = "All"
+    tag = "*"
   
-  # [[content.filter_button]]
-  #   name = "Deep Learning"
-  #   tag = "Deep Learning"
+  [[content.filter_button]]
+     name = "Deep Learning"
+     tag = "Deep Learning"
   
-  # [[content.filter_button]]
-  #   name = "Other"
-  #   tag = "Demo"
+  [[content.filter_button]]
+    name = "Wireless Communication"
+    tag = "Wireless Communication"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -53,7 +53,7 @@ subtitle = ""
   #   Choose a light or dark text color by setting `text_color_light`.
   #   Any HTML color name or Hex value is valid.
 
-  color = "#FFF7EC"
+  #color = "#FFF7EC"
   
   # Background gradient.
   # gradient_start = "DeepSkyBlue"

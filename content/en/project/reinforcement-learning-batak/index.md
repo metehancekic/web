@@ -3,8 +3,8 @@
 
 title: "Reinforcement Learning For The Game Called \"Batak\""
 summary: "Teaching a network to play Turkish card game “Batak” by using Reinforcement Learning methods. Asynchronous Advantage Actor Critic (A3C) algorithm is implemented for learning. Game environment for agents is written from scratch. LSTM based network model is used to capture temporal information."
-authors: []
-tags: []
+authors: [admin, Can Bakiskan]
+tags: [Deep Learning]
 categories: []
 date: 2020-02-29T14:56:42-08:00
 

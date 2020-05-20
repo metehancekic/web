@@ -1,5 +1,9 @@
 +++
 # Homepage
 type = "widget_page"
-headless = true  # Homepage is headless, other widget pages are not.
+headless = false  # Homepage is headless, other widget pages are not.
+
+image= "featured.png"
+caption= "Image credit: [**Academic**](https://github.com/gcushen/hugo-academic/)"
+
 +++

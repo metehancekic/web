@@ -3,9 +3,9 @@
 
 title: "Deep Illusion (Adversarial ML toolbox)"
 summary: "Created and published an adversarial ML toolbox 'deepillusion'"
-authors: []
-tags: []
-categories: []
+authors: [admin]
+tags: [Deep Learning]
+categories: [Deep Learning]
 date: 2020-05-03T13:36:47-07:00
 
 # Optional external URL for project (replaces project detail page).

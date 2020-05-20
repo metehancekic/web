@@ -3,6 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/authors/admin/</loc>
+    <lastmod>2020-05-03T13:36:47-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/admin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/authors/admin/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/authors/</loc>
+    <lastmod>2020-05-03T13:36:47-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/categories/</loc>
+    <lastmod>2020-05-03T13:36:47-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/categories/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.ece.ucsb.edu/~metehancekic/project/deep-illusion/</loc>
     <lastmod>2020-05-03T13:36:47-07:00</lastmod>
     <xhtml:link
@@ -15,6 +60,16 @@
                 hreflang="en"
                 href="https://www.ece.ucsb.edu/~metehancekic/project/deep-illusion/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/tags/deep-learning/</loc>
+    <lastmod>2020-05-03T13:36:47-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/categories/deep-learning/</loc>
+    <lastmod>2020-05-03T13:36:47-07:00</lastmod>
   </url>
   
   <url>
@@ -48,6 +103,36 @@
   </url>
   
   <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/tags/</loc>
+    <lastmod>2020-05-03T13:36:47-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/authors/soorya-gopalakrishnan/</loc>
+    <lastmod>2020-03-05T15:01:28-08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/soorya-gopalakrishnan/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/authors/soorya-gopalakrishnan/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.ece.ucsb.edu/~metehancekic/project/adversarial-machine-learning/</loc>
     <lastmod>2020-03-05T15:01:28-08:00</lastmod>
     <xhtml:link
@@ -59,6 +144,21 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.ece.ucsb.edu/~metehancekic/project/adversarial-machine-learning/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/authors/can-bakiskan/</loc>
+    <lastmod>2020-02-29T14:56:42-08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/can-bakiskan/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/authors/can-bakiskan/"
                 />
   </url>
   
@@ -93,6 +193,16 @@
   </url>
   
   <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/tags/wireless-communication/</loc>
+    <lastmod>2020-02-25T14:49:34-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/categories/wireless-communication/</loc>
+    <lastmod>2020-02-25T14:49:34-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.ece.ucsb.edu/~metehancekic/publication_types/1/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -119,36 +229,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.ece.ucsb.edu/~metehancekic/publication_types/2/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ece.ucsb.edu/~metehancekic/authors/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ece.ucsb.edu/~metehancekic/authors/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ece.ucsb.edu/~metehancekic/authors/can-bakiskan/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/can-bakiskan/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ece.ucsb.edu/~metehancekic/authors/can-bakiskan/"
                 />
   </url>
   
@@ -243,21 +323,6 @@
   </url>
   
   <url>
-    <loc>https://www.ece.ucsb.edu/~metehancekic/authors/soorya-gopalakrishnan/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/soorya-gopalakrishnan/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ece.ucsb.edu/~metehancekic/authors/soorya-gopalakrishnan/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.ece.ucsb.edu/~metehancekic/authors/upamanyu-madhow/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -288,30 +353,16 @@
   </url>
   
   <url>
-    <loc>https://www.ece.ucsb.edu/~metehancekic/authors/admin/</loc>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/home/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="tr"
-                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/admin/"
+                href=""
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://www.ece.ucsb.edu/~metehancekic/authors/admin/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ece.ucsb.edu/~metehancekic/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://www.ece.ucsb.edu/~metehancekic/tr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ece.ucsb.edu/~metehancekic/categories/"
+                href="https://www.ece.ucsb.edu/~metehancekic/home/"
                 />
   </url>
   
@@ -340,20 +391,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.ece.ucsb.edu/~metehancekic/talk/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ece.ucsb.edu/~metehancekic/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://www.ece.ucsb.edu/~metehancekic/tr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ece.ucsb.edu/~metehancekic/tags/"
                 />
   </url>
   
