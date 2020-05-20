@@ -19,7 +19,7 @@ image= "header.png"
 
 [design.spacing]
 # Customize the section spacing. Order is top, right, bottom, left.
-padding = ["0", "0", "image.height", "0"]
+padding = ["1000", "0", "0", "0"]
 
 [advanced]
  # Custom CSS. 
@@ -27,6 +27,10 @@ padding = ["0", "0", "image.height", "0"]
  
  # CSS class.
  css_class = ""
+
+ [container]
+ width= "100%"
+ padding-top= "100%"
 
 +++
 

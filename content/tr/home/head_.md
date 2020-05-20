@@ -19,7 +19,7 @@ image= "header_tr.png"
 
 [design.spacing]
 # Customize the section spacing. Order is top, right, bottom, left.
-padding = ["0", "0", "image.height", "0"]
+#padding = ["0", "0", "image.height", "0"]
 
 +++
 

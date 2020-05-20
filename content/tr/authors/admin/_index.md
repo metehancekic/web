@@ -18,8 +18,7 @@ organizations:
   url: "https://ucsb.edu"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Lisans eğitimimi Boğaziçi Üniversitesi Elektrik-Elektronik Mühendisliği ve Fizik Bölümlerinde, yüksek lisansını Kaliforniya Üniversitesi Santa Barbara Elektrik ve Bilgisayar Mühendisliği bölümünde sırasıyla 2017 ve 2019 yıllarında tamamladım. Şu anda WCSL laboratuvarında Profesör Madhow'un danışmanlığında doktorama devam etmekteyim.
-
+bio: Lisans eğitimimi Boğaziçi Üniversitesi Elektrik-Elektronik Mühendisliği ve Fizik Bölümlerinde, yüksek lisansını Kaliforniya Üniversitesi Santa Barbara Elektrik ve Bilgisayar Mühendisliği bölümünde sırasıyla 2017 ve 2019 yıllarında tamamladım. Şu anda WCSL laboratuvarında Profesör Madhow'un danışmanlığında doktorama devam etmekteyim. 
 
 interests:
 - Derin Öğrenme

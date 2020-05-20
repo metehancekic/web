@@ -9153,7 +9153,8 @@ nav#navbar-main li.nav-item {
   animation-delay: 0.15s; }
 
 .home-section:first-of-type {
-  padding-top: 100px; }
+  width: 100%;
+  padding-top: 20%; }
 
 .navbar {
   margin-left: -15px;
