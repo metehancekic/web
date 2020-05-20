@@ -20,6 +20,9 @@ author = "admin"
 
 text_color_light = false
 
+[design.spacing]
+# Customize the section spacing. Order is top, right, bottom, left.
+padding = ["0", "0", "10", "0"]
 
 
 +++

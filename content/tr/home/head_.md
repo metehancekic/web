@@ -11,6 +11,7 @@ title = ""
 [design.background]
 
 #color = "#FFEFD8"
+color = "#ffffff"
 
 text_color_light = false
 
@@ -18,7 +19,7 @@ image= "header_tr.png"
 
 [design.spacing]
 # Customize the section spacing. Order is top, right, bottom, left.
-padding = ["0", "0", "350px", "0"]
+padding = ["0", "0", "image.height", "0"]
 
 +++
 

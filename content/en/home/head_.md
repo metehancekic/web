@@ -8,9 +8,10 @@ weight = 10  # Order that this section will appear in.
 title = ""
 
 
+
 [design.background]
 
-#color = "#FFEFD8"
+color = "#ffffff"
 
 text_color_light = false
 
@@ -18,7 +19,17 @@ image= "header.png"
 
 [design.spacing]
 # Customize the section spacing. Order is top, right, bottom, left.
-padding = ["0", "0", "300px", "0"]
+padding = ["0", "0", "image.height", "0"]
+
+[advanced]
+ # Custom CSS. 
+ css_style = ""
+ 
+ # CSS class.
+ css_class = ""
 
 +++
 
+
+
+<!-- <img src="img/header.png" style="visibility: hidden;" /> -->

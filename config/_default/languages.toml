@@ -16,8 +16,13 @@
 #    description = "Site description in Chinese..."
 [[tr.menu.main]]
   name = "Anasayfa"
-  url = "#about"
+  url = "#head_"
   weight = 10
+
+[[tr.menu.main]]
+  name = "Biyo"
+  url = "#about"
+  weight = 20
 
 [[tr.menu.main]]
   name = "Araştırma"
@@ -38,3 +43,4 @@
   name = "Özgeçmiş"
   url = "files/metehancekic_resume.pdf"
   weight = 70
+
