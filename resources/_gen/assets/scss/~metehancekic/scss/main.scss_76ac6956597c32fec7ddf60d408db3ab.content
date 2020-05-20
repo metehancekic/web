@@ -9133,6 +9133,9 @@ nav#navbar-main li.nav-item {
   margin: 0 auto;
   object-fit: cover; }
 
+.container {
+  max-width: 90%; }
+
 .home-section.bg-image {
   background-position: top;
   background-repeat: no-repeat;
