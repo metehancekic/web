@@ -53,7 +53,7 @@ subtitle = ""
   #   Choose a light or dark text color by setting `text_color_light`.
   #   Any HTML color name or Hex value is valid.
 
-  color = "#FFF7EC"
+  #color = "#FFF7EC"
   
   # Background gradient.
   # gradient_start = "DeepSkyBlue"

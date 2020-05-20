@@ -14,7 +14,7 @@ author = "admin"
 
 [design.background]
 
-color = "#FFEFD8"
+#color = "#FFEFD8"
 
 text_color_light = false
 +++

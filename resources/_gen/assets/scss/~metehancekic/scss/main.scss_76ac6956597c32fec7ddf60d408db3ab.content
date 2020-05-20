@@ -8339,7 +8339,7 @@ ul.share li:hover i {
     opacity: 1; } }
 
 .home-section {
-  background-color: white;
+  background-color: #efefef;
   padding: 110px 0 110px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s; }
@@ -8392,7 +8392,7 @@ ul.share li:hover i {
   padding-top: 50px; }
 
 .home-section:nth-of-type(even) {
-  background-color: #efefef; }
+  background-color: white; }
 
 .dark .home-section {
   background-color: #272935; }
@@ -9133,19 +9133,49 @@ nav#navbar-main li.nav-item {
   margin: 0 auto;
   object-fit: cover; }
 
+.home-section.bg-image {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
 @media (max-width: 767.98px) {
   .wg-about .avatar {
     width: 100px;
     height: 100px; } }
 
 .home-section {
-  background-color: white;
+  background-color: #efefef;
   padding: 50px 0 50px 0;
   animation: intro 0.3s both;
   animation-delay: 0.15s; }
 
 .home-section:first-of-type {
-  padding-top: 300px; }
+  padding-top: 100px; }
+
+.navbar {
+  margin-left: -15px;
+  margin-right: -15px; }
+
+body {
+  margin-top: 50px;
+  /* Offset body content by navbar height. */ }
+
+.article-container {
+  max-width: 920px !important;
+  padding: 0 20px 0 20px;
+  margin: 0 auto 0 auto; }
+
+.full_table {
+  display: table;
+  width: 100%; }
+
+.full_table table thead {
+  display: table;
+  width: 100%; }
+
+.full_table table tbody {
+  display: table;
+  width: 100%; }
 
 .navbar {
   height: 50px;

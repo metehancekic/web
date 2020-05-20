@@ -20,8 +20,7 @@ author = "admin"
 
 text_color_light = false
 
-[head]
-image= "featured"
+
 
 +++
 

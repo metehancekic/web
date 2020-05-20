@@ -14,11 +14,11 @@ title = ""
 
 text_color_light = false
 
-image= "header.png"
+image= "header_tr.png"
 
 [design.spacing]
 # Customize the section spacing. Order is top, right, bottom, left.
-padding = ["0", "0", "300px", "0"]
+padding = ["0", "0", "350px", "0"]
 
 +++
 

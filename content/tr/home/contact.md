@@ -19,7 +19,7 @@ email_form = 0
 
 [design.background]
 
-color = "#FFF7EC"
+#color = "#FFF7EC"
 +++
 
 

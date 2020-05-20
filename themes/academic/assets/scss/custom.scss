@@ -13,6 +13,12 @@ nav#navbar-main li.nav-item {
   object-fit: cover;
 }
 
+.home-section.bg-image {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 // Use smaller avatar size in About widget on small devices.
 @include media-breakpoint-down(sm) {
   .wg-about .avatar {
@@ -29,7 +35,41 @@ nav#navbar-main li.nav-item {
 }
 
 .home-section:first-of-type {
-  padding-top: 300px;
+  padding-top: 100px;
+}
+
+.navbar{
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+
+body {
+  margin-top: 50px; /* Offset body content by navbar height. */
+}
+
+
+
+
+.article-container {
+  max-width: 920px !important;
+  padding: 0 20px 0 20px;
+  margin: 0 auto 0 auto;
+}
+
+.full_table {
+  display: table;
+  width: 100%;
+}
+
+.full_table table thead {
+  display: table;
+  width: 100%;
+}
+
+.full_table table tbody {
+  display: table;
+  width: 100%;
 }
 
 .navbar {
