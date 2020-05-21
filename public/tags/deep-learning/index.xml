@@ -17,7 +17,8 @@
       <link>https://www.ece.ucsb.edu/~metehancekic/project/deep-illusion/</link>
       <pubDate>Sun, 03 May 2020 13:36:47 -0700</pubDate>
       <guid>https://www.ece.ucsb.edu/~metehancekic/project/deep-illusion/</guid>
-      <description>&lt;h2 id=&#34;deep-illusion-&#34;&gt;Deep Illusion&lt;/h2&gt;
+      <description>&lt;br/&gt;
+&lt;h2 id=&#34;deep-illusion-&#34;&gt;Deep Illusion&lt;/h2&gt;
 &lt;p&gt;Deep Illusion is a toolbox for adversarial attacks in machine learning. Current version is only implemented for Pytorch models. DeepIllusion is a growing and developing python module which aims to help adversarial machine learning community to accelerate their research. Module currently includes complete implementation of well-known attacks (PGD, FGSM, R-FGSM, CW, BIM etc..). All attacks have an apex(amp) version which you can run your attacks fast and accurately. We strongly recommend that amp versions should only be used for adversarial training since it may have gradient masking issues after neural net gets confident about its decisions. All attack methods have an option (Verbose: False) to check if gradient masking is happening.&lt;/p&gt;
 &lt;p&gt;All attack codes are written in functional programming style, therefore, users can easily call the method function and feed the input data and model to get perturbations. All codes are documented, and contains the example use in their description. Users can easily access the documentation by typing &amp;ldquo;??&amp;rdquo; at the and of the method they want to use in Ipython (E.g FGSM?? or PGD??). Output perturbations are already clipped for each image to prevent illegal pixel values. We are open to contributers to expand the attack methods arsenal.&lt;/p&gt;
 &lt;p&gt;We also include the most effective current approach to defend DNNs against adversarial perturbations which is training the network using adversarially perturbed examples. Adversarial training and testing methods are included in torchdefenses submodule.&lt;/p&gt;
@@ -103,7 +104,8 @@ height=&#34;240&#34;&gt;&lt;/p&gt;
       <link>https://www.ece.ucsb.edu/~metehancekic/project/mywireless-fingerprinting/</link>
       <pubDate>Tue, 25 Feb 2020 14:49:34 -0800</pubDate>
       <guid>https://www.ece.ucsb.edu/~metehancekic/project/mywireless-fingerprinting/</guid>
-      <description>&lt;ul&gt;
+      <description>&lt;br/&gt;
+&lt;ul&gt;
 	&lt;li&gt;Our goal is to learn&amp;nbsp;&lt;strong&gt;&lt;em&gt;RF signatures&lt;/em&gt;&lt;/strong&gt;&amp;nbsp;that can distinguish between devices sending&amp;nbsp;&lt;em&gt;exactly&lt;/em&gt;&amp;nbsp;the same message. This is possible due to subtle hardware imperfections (labeled&amp;nbsp;&#34;nonlinearities&#34; in the figure below) unique to each device.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul&gt;

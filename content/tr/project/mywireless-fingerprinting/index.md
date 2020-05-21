@@ -40,6 +40,8 @@ url_video: ""
 slides: ""
 ---
 
+<br/>
+
 <ul>
 	<li>Our goal is to learn&nbsp;<strong><em>RF signatures</em></strong>&nbsp;that can distinguish between devices sending&nbsp;<em>exactly</em>&nbsp;the same message. This is possible due to subtle hardware imperfections (labeled&nbsp;"nonlinearities" in the figure below) unique to each device.</li>
 </ul>

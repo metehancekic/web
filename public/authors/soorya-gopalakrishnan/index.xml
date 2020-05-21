@@ -25,7 +25,8 @@
       <link>https://www.ece.ucsb.edu/~metehancekic/project/mywireless-fingerprinting/</link>
       <pubDate>Tue, 25 Feb 2020 14:49:34 -0800</pubDate>
       <guid>https://www.ece.ucsb.edu/~metehancekic/project/mywireless-fingerprinting/</guid>
-      <description>&lt;ul&gt;
+      <description>&lt;br/&gt;
+&lt;ul&gt;
 	&lt;li&gt;Our goal is to learn&amp;nbsp;&lt;strong&gt;&lt;em&gt;RF signatures&lt;/em&gt;&lt;/strong&gt;&amp;nbsp;that can distinguish between devices sending&amp;nbsp;&lt;em&gt;exactly&lt;/em&gt;&amp;nbsp;the same message. This is possible due to subtle hardware imperfections (labeled&amp;nbsp;&#34;nonlinearities&#34; in the figure below) unique to each device.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ul&gt;
