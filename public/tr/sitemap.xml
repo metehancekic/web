@@ -63,6 +63,21 @@
   </url>
   
   <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/authors/admin/</loc>
+    <lastmod>2020-02-29T14:56:42-08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/authors/admin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/admin/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.ece.ucsb.edu/~metehancekic/tr/project/reinforcement-learning-batak/</loc>
     <lastmod>2020-02-29T14:56:42-08:00</lastmod>
     <xhtml:link
@@ -74,6 +89,66 @@
                 rel="alternate"
                 hreflang="tr"
                 href="https://www.ece.ucsb.edu/~metehancekic/tr/project/reinforcement-learning-batak/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/authors/</loc>
+    <lastmod>2020-02-29T14:56:42-08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/authors/can-bakiskan/</loc>
+    <lastmod>2020-02-29T14:56:42-08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/authors/can-bakiskan/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/can-bakiskan/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/tags/deep-learning/</loc>
+    <lastmod>2020-02-29T14:56:42-08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/tags/deep-learning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/tags/deep-learning/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/tags/</loc>
+    <lastmod>2020-02-29T14:56:42-08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/tags/"
                 />
   </url>
   
@@ -119,36 +194,6 @@
                 rel="alternate"
                 hreflang="tr"
                 href="https://www.ece.ucsb.edu/~metehancekic/tr/publication_types/2/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/authors/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ece.ucsb.edu/~metehancekic/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/authors/can-bakiskan/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ece.ucsb.edu/~metehancekic/authors/can-bakiskan/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/can-bakiskan/"
                 />
   </url>
   
@@ -288,20 +333,6 @@
   </url>
   
   <url>
-    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/authors/admin/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ece.ucsb.edu/~metehancekic/authors/admin/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/admin/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.ece.ucsb.edu/~metehancekic/tr/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -340,20 +371,6 @@
                 rel="alternate"
                 hreflang="tr"
                 href="https://www.ece.ucsb.edu/~metehancekic/tr/talk/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ece.ucsb.edu/~metehancekic/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://www.ece.ucsb.edu/~metehancekic/tr/tags/"
                 />
   </url>
   
