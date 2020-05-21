@@ -153,6 +153,36 @@
   </url>
   
   <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/categories/</loc>
+    <lastmod>2020-02-25T14:49:34-08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/categories/deep-learning/</loc>
+    <lastmod>2020-02-25T14:49:34-08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/categories/deep-learning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/categories/deep-learning/"
+                />
+  </url>
+  
+  <url>
     <loc>https://www.ece.ucsb.edu/~metehancekic/tr/project/mywireless-fingerprinting/</loc>
     <lastmod>2020-02-25T14:49:34-08:00</lastmod>
     <xhtml:link
@@ -164,6 +194,51 @@
                 rel="alternate"
                 hreflang="tr"
                 href="https://www.ece.ucsb.edu/~metehancekic/tr/project/mywireless-fingerprinting/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/authors/soorya-gopalakrishnan/</loc>
+    <lastmod>2020-02-25T14:49:34-08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/authors/soorya-gopalakrishnan/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/soorya-gopalakrishnan/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/tags/wireless-communication/</loc>
+    <lastmod>2020-02-25T14:49:34-08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/tags/wireless-communication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/tags/wireless-communication/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/categories/wireless-communication/</loc>
+    <lastmod>2020-02-25T14:49:34-08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/categories/wireless-communication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/categories/wireless-communication/"
                 />
   </url>
   
@@ -288,21 +363,6 @@
   </url>
   
   <url>
-    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/authors/soorya-gopalakrishnan/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ece.ucsb.edu/~metehancekic/authors/soorya-gopalakrishnan/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/soorya-gopalakrishnan/"
-                />
-  </url>
-  
-  <url>
     <loc>https://www.ece.ucsb.edu/~metehancekic/tr/authors/upamanyu-madhow/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -329,20 +389,6 @@
                 rel="alternate"
                 hreflang="tr"
                 href="https://www.ece.ucsb.edu/~metehancekic/tr/publication/fingerprinting-2019-globecom/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ece.ucsb.edu/~metehancekic/tr/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ece.ucsb.edu/~metehancekic/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://www.ece.ucsb.edu/~metehancekic/tr/categories/"
                 />
   </url>
   

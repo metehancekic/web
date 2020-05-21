@@ -3,9 +3,9 @@
 
 title: "Radyo Frekansı Makine Öğrenmesi"
 summary: "Elektronik devrelere ait özniteliklerle aynı mesajları gönderen kablosuz cihazları sınıflandırma"
-authors: []
-tags: []
-categories: []
+authors: [admin, Soorya Gopalakrishnan]
+tags: [Deep Learning, Wireless Communication]
+categories: [Deep Learning, Wireless Communication]
 date: 2020-02-25T14:49:34-08:00
 
 # Optional external URL for project (replaces project detail page).
@@ -17,7 +17,7 @@ external_link: ""
 image:
   caption: "Communication system"
   focal_point: "bottom"
-  preview_only: false
+  preview_only: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
@@ -40,11 +40,14 @@ url_video: ""
 slides: ""
 ---
 
-<br/>
+## **Radio Frequency Machine Learning** #
 
 <ul>
 	<li>Our goal is to learn&nbsp;<strong><em>RF signatures</em></strong>&nbsp;that can distinguish between devices sending&nbsp;<em>exactly</em>&nbsp;the same message. This is possible due to subtle hardware imperfections (labeled&nbsp;"nonlinearities" in the figure below) unique to each device.</li>
 </ul>
+
+<img src="featured.png" alt="Simply Easy Learning" width="600"
+         height="240">
 
 <ul>
 	<li>Since the information in RF data resides in complex baseband, we employ CNNs with complex-valued weights to learn these signatures. This technique&nbsp;does&nbsp;not use&nbsp;signal domain knowledge and can be used for any wireless protocol. We demonstrate its effectiveness for two protocols -&nbsp;WiFi and ADS-B.</li>
@@ -65,7 +68,7 @@ slides: ""
 
 <div class="field__item odd"><div class="entity entity-paragraphs-item paragraphs-item-related-publications-topic-group">
   <div class="content">
-    <div class="field field--name-field-sub-topic-title field--type-text field--label-hidden"><div class="field__items"><div class="field__item even"><h3 class="">Yayınlar</h3></div></div></div>
+    <div class="field field--name-field-sub-topic-title field--type-text field--label-hidden"><div class="field__items"><div class="field__item even"><h3 class="">Publications</h3></div></div></div>
 
 
 <div class="field field--name-field-related-publications field--type-entityreference field--label-hidden"><div class="field__items"><div class="field__item even">	<div role="article" class="node node--simple-publication node--promoted contextual-links-region node--citation node--simple-publication--citation">
@@ -88,3 +91,8 @@ slides: ""
 </div></div></div>  </div>
 </div>
 </div>
+
+
+
+
+

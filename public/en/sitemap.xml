@@ -80,6 +80,16 @@
   <url>
     <loc>https://www.ece.ucsb.edu/~metehancekic/categories/deep-learning/</loc>
     <lastmod>2020-05-03T13:36:47-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/categories/deep-learning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/categories/deep-learning/"
+                />
   </url>
   
   <url>
@@ -205,11 +215,31 @@
   <url>
     <loc>https://www.ece.ucsb.edu/~metehancekic/tags/wireless-communication/</loc>
     <lastmod>2020-02-25T14:49:34-08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/tags/wireless-communication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/tags/wireless-communication/"
+                />
   </url>
   
   <url>
     <loc>https://www.ece.ucsb.edu/~metehancekic/categories/wireless-communication/</loc>
     <lastmod>2020-02-25T14:49:34-08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/categories/wireless-communication/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/categories/wireless-communication/"
+                />
   </url>
   
   <url>

@@ -17,7 +17,7 @@ external_link: ""
 image:
   caption: "Communication system"
   focal_point: "bottom"
-  preview_only: false
+  preview_only: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
@@ -40,11 +40,14 @@ url_video: ""
 slides: ""
 ---
 
-<br/>
+## **Radio Frequency Machine Learning** #
 
 <ul>
 	<li>Our goal is to learn&nbsp;<strong><em>RF signatures</em></strong>&nbsp;that can distinguish between devices sending&nbsp;<em>exactly</em>&nbsp;the same message. This is possible due to subtle hardware imperfections (labeled&nbsp;"nonlinearities" in the figure below) unique to each device.</li>
 </ul>
+
+<img src="featured.png" alt="Simply Easy Learning" width="600"
+         height="240">
 
 <ul>
 	<li>Since the information in RF data resides in complex baseband, we employ CNNs with complex-valued weights to learn these signatures. This technique&nbsp;does&nbsp;not use&nbsp;signal domain knowledge and can be used for any wireless protocol. We demonstrate its effectiveness for two protocols -&nbsp;WiFi and ADS-B.</li>

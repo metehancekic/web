@@ -20,7 +20,7 @@
   weight = 10
 
 [[tr.menu.main]]
-  name = "Biyo"
+  name = "Biyografi"
   url = "#about"
   weight = 20
 
