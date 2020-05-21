@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="Created and published an adversarial ML toolbox &#39;deepillusion&#39;">
+  <meta name="description" content="Saldırgan Makine Öğrenmesi modülü &#39;deepillusion&#39;">
 
   
   <link rel="alternate" hreflang="en" href="https://www.ece.ucsb.edu/~metehancekic/project/deep-illusion/">
@@ -232,8 +232,8 @@
   
   <meta property="og:site_name" content="Metehan Cekic">
   <meta property="og:url" content="https://www.ece.ucsb.edu/~metehancekic/tr/project/deep-illusion/">
-  <meta property="og:title" content="Deep Illusion (Adversarial ML toolbox) | Metehan Cekic">
-  <meta property="og:description" content="Created and published an adversarial ML toolbox &#39;deepillusion&#39;"><meta property="og:image" content="https://www.ece.ucsb.edu/~metehancekic/tr/project/deep-illusion/featured.png">
+  <meta property="og:title" content="Derin İllüzyon (Saldırgan Makine Öğrenmesi) | Metehan Cekic">
+  <meta property="og:description" content="Saldırgan Makine Öğrenmesi modülü &#39;deepillusion&#39;"><meta property="og:image" content="https://www.ece.ucsb.edu/~metehancekic/tr/project/deep-illusion/featured.png">
   <meta property="twitter:image" content="https://www.ece.ucsb.edu/~metehancekic/tr/project/deep-illusion/featured.png"><meta property="og:locale" content="tr">
   
     
@@ -263,7 +263,7 @@
     "@type": "WebPage",
     "@id": "https://www.ece.ucsb.edu/~metehancekic/tr/project/deep-illusion/"
   },
-  "headline": "Deep Illusion (Adversarial ML toolbox)",
+  "headline": "Derin İllüzyon (Saldırgan Makine Öğrenmesi)",
   
   "image": [
     "https://www.ece.ucsb.edu/~metehancekic/tr/project/deep-illusion/featured.png"
@@ -285,7 +285,7 @@
       "url": "https://www.ece.ucsb.edu/~metehancekic/images/icon_hud04b0e5dcb69ba3b115e12e5adda7998_13311_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Created and published an adversarial ML toolbox 'deepillusion'"
+  "description": "Saldırgan Makine Öğrenmesi modülü 'deepillusion'"
 }
 </script>
 
@@ -303,7 +303,7 @@
 
 
 
-  <title>Deep Illusion (Adversarial ML toolbox) | Metehan Cekic</title>
+  <title>Derin İllüzyon (Saldırgan Makine Öğrenmesi) | Metehan Cekic</title>
 
 </head>
 
@@ -615,7 +615,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>Deep Illusion (Adversarial ML toolbox)</h1>
+  <h1>Derin İllüzyon (Saldırgan Makine Öğrenmesi)</h1>
 
   
 
@@ -683,7 +683,20 @@
   <div class="article-container">
 
     <div class="article-style">
-      
+      <h2 id="deep-illusion-">Deep Illusion</h2>
+<p>Deep Illusion is a toolbox for adversarial attacks in machine learning. Current version is only implemented for Pytorch models. DeepIllusion is a growing and developing python module which aims to help adversarial machine learning community to accelerate their research. Module currently includes complete implementation of well-known attacks (PGD, FGSM, R-FGSM, CW, BIM etc..). All attacks have an apex(amp) version which you can run your attacks fast and accurately. We strongly recommend that amp versions should only be used for adversarial training since it may have gradient masking issues after neural net gets confident about its decisions. All attack methods have an option (Verbose: False) to check if gradient masking is happening.</p>
+<p>All attack codes are written in functional programming style, therefore, users can easily call the method function and feed the input data and model to get perturbations. All codes are documented, and contains the example use in their description. Users can easily access the documentation by typing &ldquo;??&rdquo; at the and of the method they want to use in Ipython (E.g FGSM?? or PGD??). Output perturbations are already clipped for each image to prevent illegal pixel values. We are open to contributers to expand the attack methods arsenal.</p>
+<p>We also include the most effective current approach to defend DNNs against adversarial perturbations which is training the network using adversarially perturbed examples. Adversarial training and testing methods are included in torchdefenses submodule.</p>
+<p>To standardize the arguments for all attacks, methods accept attack parameters as a dictionary named as attack_params which contains the necessary parameters for each attack. Furthermore, attack methods get the data properties such as the maximum and the minimum pixel value as another dictionary named data_params. These dictinaries make function calls concise and standard for all methods.</p>
+<p>Current version is tested with different defense methods and the standard models for verification and we observed the reported accuracies.</p>
+<p>Code can be installed via PyPi:</p>
+<pre><code class="language-bash">pip install deepillusion
+</code></pre>
+<p>
+<a href="https://pypi.org/project/deepillusion/" target="_blank" rel="noopener">PyPi page for the code</a></p>
+<p>
+<a href="https://github.com/metehancekic/deep-illusion" target="_blank" rel="noopener">Git repo for the code</a></p>
+
     </div>
 
     
@@ -705,7 +718,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://www.ece.ucsb.edu/~metehancekic/tr/project/deep-illusion/&amp;text=Deep%20Illusion%20%28Adversarial%20ML%20toolbox%29" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://www.ece.ucsb.edu/~metehancekic/tr/project/deep-illusion/&amp;text=Derin%20%c4%b0ll%c3%bczyon%20%28Sald%c4%b1rgan%20Makine%20%c3%96%c4%9frenmesi%29" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -718,7 +731,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://www.ece.ucsb.edu/~metehancekic/tr/project/deep-illusion/&amp;t=Deep%20Illusion%20%28Adversarial%20ML%20toolbox%29" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://www.ece.ucsb.edu/~metehancekic/tr/project/deep-illusion/&amp;t=Derin%20%c4%b0ll%c3%bczyon%20%28Sald%c4%b1rgan%20Makine%20%c3%96%c4%9frenmesi%29" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -731,7 +744,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Deep%20Illusion%20%28Adversarial%20ML%20toolbox%29&amp;body=https://www.ece.ucsb.edu/~metehancekic/tr/project/deep-illusion/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Derin%20%c4%b0ll%c3%bczyon%20%28Sald%c4%b1rgan%20Makine%20%c3%96%c4%9frenmesi%29&amp;body=https://www.ece.ucsb.edu/~metehancekic/tr/project/deep-illusion/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -744,7 +757,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://www.ece.ucsb.edu/~metehancekic/tr/project/deep-illusion/&amp;title=Deep%20Illusion%20%28Adversarial%20ML%20toolbox%29" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://www.ece.ucsb.edu/~metehancekic/tr/project/deep-illusion/&amp;title=Derin%20%c4%b0ll%c3%bczyon%20%28Sald%c4%b1rgan%20Makine%20%c3%96%c4%9frenmesi%29" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -757,7 +770,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Deep%20Illusion%20%28Adversarial%20ML%20toolbox%29%20https://www.ece.ucsb.edu/~metehancekic/tr/project/deep-illusion/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Derin%20%c4%b0ll%c3%bczyon%20%28Sald%c4%b1rgan%20Makine%20%c3%96%c4%9frenmesi%29%20https://www.ece.ucsb.edu/~metehancekic/tr/project/deep-illusion/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -770,7 +783,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://www.ece.ucsb.edu/~metehancekic/tr/project/deep-illusion/&amp;title=Deep%20Illusion%20%28Adversarial%20ML%20toolbox%29" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://www.ece.ucsb.edu/~metehancekic/tr/project/deep-illusion/&amp;title=Derin%20%c4%b0ll%c3%bczyon%20%28Sald%c4%b1rgan%20Makine%20%c3%96%c4%9frenmesi%29" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

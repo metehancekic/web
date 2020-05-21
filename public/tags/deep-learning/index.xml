@@ -17,7 +17,20 @@
       <link>https://www.ece.ucsb.edu/~metehancekic/project/deep-illusion/</link>
       <pubDate>Sun, 03 May 2020 13:36:47 -0700</pubDate>
       <guid>https://www.ece.ucsb.edu/~metehancekic/project/deep-illusion/</guid>
-      <description></description>
+      <description>&lt;h2 id=&#34;deep-illusion-&#34;&gt;Deep Illusion&lt;/h2&gt;
+&lt;p&gt;Deep Illusion is a toolbox for adversarial attacks in machine learning. Current version is only implemented for Pytorch models. DeepIllusion is a growing and developing python module which aims to help adversarial machine learning community to accelerate their research. Module currently includes complete implementation of well-known attacks (PGD, FGSM, R-FGSM, CW, BIM etc..). All attacks have an apex(amp) version which you can run your attacks fast and accurately. We strongly recommend that amp versions should only be used for adversarial training since it may have gradient masking issues after neural net gets confident about its decisions. All attack methods have an option (Verbose: False) to check if gradient masking is happening.&lt;/p&gt;
+&lt;p&gt;All attack codes are written in functional programming style, therefore, users can easily call the method function and feed the input data and model to get perturbations. All codes are documented, and contains the example use in their description. Users can easily access the documentation by typing &amp;ldquo;??&amp;rdquo; at the and of the method they want to use in Ipython (E.g FGSM?? or PGD??). Output perturbations are already clipped for each image to prevent illegal pixel values. We are open to contributers to expand the attack methods arsenal.&lt;/p&gt;
+&lt;p&gt;We also include the most effective current approach to defend DNNs against adversarial perturbations which is training the network using adversarially perturbed examples. Adversarial training and testing methods are included in torchdefenses submodule.&lt;/p&gt;
+&lt;p&gt;To standardize the arguments for all attacks, methods accept attack parameters as a dictionary named as attack_params which contains the necessary parameters for each attack. Furthermore, attack methods get the data properties such as the maximum and the minimum pixel value as another dictionary named data_params. These dictinaries make function calls concise and standard for all methods.&lt;/p&gt;
+&lt;p&gt;Current version is tested with different defense methods and the standard models for verification and we observed the reported accuracies.&lt;/p&gt;
+&lt;p&gt;Code can be installed via PyPi:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install deepillusion
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://pypi.org/project/deepillusion/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PyPi page for the code&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/metehancekic/deep-illusion&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git repo for the code&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
