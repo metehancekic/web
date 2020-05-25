@@ -5,12 +5,25 @@
     <link>https://www.ece.ucsb.edu/~metehancekic/post/</link>
       <atom:link href="https://www.ece.ucsb.edu/~metehancekic/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 25 May 2020 14:31:54 -0700</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
       <title>Posts</title>
       <link>https://www.ece.ucsb.edu/~metehancekic/post/</link>
     </image>
+    
+    <item>
+      <title>Adversarial Machine Learning</title>
+      <link>https://www.ece.ucsb.edu/~metehancekic/post/myadversarial-machine-learning/</link>
+      <pubDate>Mon, 25 May 2020 14:31:54 -0700</pubDate>
+      <guid>https://www.ece.ucsb.edu/~metehancekic/post/myadversarial-machine-learning/</guid>
+      <description>&lt;p&gt;Machine learning and especially deep learning have gained significant attention with the advance in the parallel computation units (GPU, TPU, etc). Higher computational power allowed us to be able to train more complex and expressive neural networks which perform even better than human experts in a number of fields. AlphaGo which is developed by deepmind to play the game of Go was able to beat 18-time world champion Lee Sedol on March 2016. Furthermore, in a well known image classification benchmark imagenet DNNs have already surpassed human performance. All these successes boosted research on DNNs even further.&lt;/p&gt;
+&lt;p&gt;Nowadays we use many DNN empowered applications in our every day life. Despite deep networks incredible performance in classification tasks, they have recently been shown that they are easy to fool with carefully designed small perturbations to their input which is imperceptible to humans. Recent studies show that most of the well-performing neural networks can succesfully be fooled with a tiny perturbation. With these results, a great effort put forward by the research community to account for this phenomenon.&lt;/p&gt;
+&lt;p&gt;On this blog, i will try to summarize the most recent adversarial attack and adversarial defense methods. Moreover, I will try to give the intuituion behind all these methods so that reader can develop its own ideas on top of the state of the art methods. Here I need to note that there is no simple defense mechanism which is robust to all kind of adversarial examples like human visual system. One can say that even human visual system is not a robust one since it can be easily fooled by illusions. However, our main goal in deep neural networks is that we want to make sure they work similar to human visual system so that they will not be fooled by any kind of perturbations that are imperceptible to humans.&lt;/p&gt;
+&lt;h2 id=&#34;problem-definition-&#34;&gt;&lt;strong&gt;Problem Definition&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;TODO&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>
