@@ -18,19 +18,17 @@
       <pubDate>Sun, 03 May 2020 13:36:47 -0700</pubDate>
       <guid>https://www.ece.ucsb.edu/~metehancekic/tr/project/deep-illusion/</guid>
       <description>&lt;br/&gt;
-&lt;h1 id=&#34;adversarial-machine-learning&#34;&gt;Adversarial Machine Learning&lt;/h1&gt;
+&lt;h1 id=&#34;adversarial-machine-learning-&#34;&gt;&lt;strong&gt;Adversarial Machine Learning&lt;/strong&gt;&lt;/h1&gt;
 &lt;p&gt;With the advent of more powerful parallel computation units and huge data, we are able to train much more complex and expressive deep neural networks. That is said, deep neural nets (DNN) found its use in a wide variety of fields, ranging from computer vision to game playing agents. They are performing better on some tasks than even human experts in those fields. Despite their incredible success, it is by now well known that they are susceptible to small and carefully designed perturbations which are imperceptible to humans. The fact that DNN&amp;rsquo;s can easily be fooled is a great problem since they are also used in security critical applications such as self-driving cars. Recently, research community has put a great effort to robustify neural networks against these adversarial examples. Despite great attention of research community, there is not a powerful defense mechanism found, and it is shown that defending against adversarial examples are not an easy goal.&lt;/p&gt;
 &lt;p&gt;As another group working on this field, we share our attack codes as a library. This library is a side product of our research, and since we use this in our research as well, we made sure it works correctly and as mentioned in the original papers. To sum up, deepillusion contains easy to use and properly implemented adversarial methods.&lt;/p&gt;
 &lt;p&gt;We are open to suggestions &amp;ldquo;&lt;a href=&#34;mailto:metehancekic@ucsb.edu&#34;&gt;metehancekic@ucsb.edu&lt;/a&gt;&amp;rdquo;.&lt;/p&gt;
-&lt;h1 id=&#34;deep-illusion-&#34;&gt;Deep Illusion&lt;/h1&gt;
+&lt;h1 id=&#34;deep-illusion-&#34;&gt;&lt;strong&gt;Deep Illusion&lt;/strong&gt;&lt;/h1&gt;
+&lt;p&gt;Deepillusion saldırgan makine öğrenmesi için yazılmış bir kütüphanedir. Güncel sürüm sadece Pytorch modellerini desteklemektedir.&lt;/p&gt;
 &lt;p&gt;Deep Illusion is a toolbox for adversarial attacks in machine learning. Current version is only implemented for Pytorch models. DeepIllusion is a growing and developing python module which aims to help adversarial machine learning community to accelerate their research. Module currently includes complete implementation of well-known attacks (PGD, FGSM, R-FGSM, CW, BIM etc..). All attacks have an apex(amp) version which you can run your attacks fast and accurately. We strongly recommend that amp versions should only be used for adversarial training since it may have gradient masking issues after neural net gets confident about its decisions. All attack methods have an option (Verbose: False) to check if gradient masking is happening.&lt;/p&gt;
 &lt;p&gt;All attack codes are written in functional programming style, therefore, users can easily call the method function and feed the input data and model to get perturbations. All codes are documented, and contains the example use in their description. Users can easily access the documentation by typing &amp;ldquo;??&amp;rdquo; at the and of the method they want to use in Ipython (E.g FGSM?? or PGD??). Output perturbations are already clipped for each image to prevent illegal pixel values. We are open to contributers to expand the attack methods arsenal.&lt;/p&gt;
 &lt;p&gt;We also include the most effective current approach to defend DNNs against adversarial perturbations which is training the network using adversarially perturbed examples. Adversarial training and testing methods are included in torchdefenses submodule.&lt;/p&gt;
 &lt;p&gt;Current version is tested with different defense methods and the standard models for verification and we observed the reported accuracies.&lt;/p&gt;
-&lt;p&gt;Code can be installed via PyPi:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install deepillusion
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Maintainers:
+&lt;p&gt;Geliştirenler:
 
 &lt;a href=&#34;https://wcsl.ece.ucsb.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WCSL Lab&lt;/a&gt;,
 
@@ -39,7 +37,7 @@
 &lt;a href=&#34;https://wcsl.ece.ucsb.edu/people/can-bakiskan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Can Bakiskan&lt;/a&gt;,
 
 &lt;a href=&#34;https://wcsl.ece.ucsb.edu/people/soorya-gopalakrishnan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Soorya Gopal&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;dependencies-&#34;&gt;Dependencies&lt;/h2&gt;
+&lt;h2 id=&#34;dependencies-&#34;&gt;&lt;strong&gt;Dependencies&lt;/strong&gt;&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;numpy                     1.16.4&lt;br&gt;
 tqdm                      4.31.1&lt;/p&gt;
@@ -57,14 +55,14 @@ apex                      0.1  (optional)&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;jax&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&#34;installation-&#34;&gt;Installation&lt;/h2&gt;
-&lt;p&gt;The most recent stable version can be installed via python package installer &amp;ldquo;pip&amp;rdquo;, or you can clone it from the git page.&lt;/p&gt;
+&lt;h2 id=&#34;kurma-&#34;&gt;&lt;strong&gt;Kurma&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;En güncel sürümü aşağıdaki kodu kullanarak yükleyebilirsiniz:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install deepillusion
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;or&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone git@github.com:metehancekic/deep-illusion.git
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;example-use-&#34;&gt;Example Use&lt;/h2&gt;
+&lt;h2 id=&#34;example-use-&#34;&gt;&lt;strong&gt;Example Use&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;As mentioned earlier, our adversarial methods are functional instead of modular type. Therefore, all you need to get the perturbations is feeding input data and its labels along with the attack parameters.&lt;/p&gt;
 &lt;p&gt;To standardize the arguments for all attacks, methods accept attack parameters as a dictionary named as attack_params which contains the necessary parameters for each attack. Furthermore, attack methods get the data properties such as the maximum and the minimum pixel value as another dictionary named data_params. These dictinaries make function calls concise and standard for all methods.&lt;/p&gt;
 &lt;p&gt;Following code snippets show PGD and FGSM usage.&lt;/p&gt;
@@ -102,13 +100,13 @@ fgsm_args = dict(net=model,
 perturbs = FGSM(**fgsm_args)
 data_adversarial = data + perturbs
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;update-&#34;&gt;Update&lt;/h2&gt;
+&lt;h2 id=&#34;update-&#34;&gt;&lt;strong&gt;Update&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Deepillusion is a growing and developing library, therefore we strongly recommend to upgrade deepillusion regularly:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install deepillusion --upgrade
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;current-version-&#34;&gt;Current Version&lt;/h2&gt;
+&lt;h2 id=&#34;current-version-&#34;&gt;&lt;strong&gt;Current Version&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;0.1.9&lt;/p&gt;
-&lt;h2 id=&#34;module-structure-&#34;&gt;Module Structure&lt;/h2&gt;
+&lt;h2 id=&#34;module-structure-&#34;&gt;&lt;strong&gt;Module Structure&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;In case investigation of the source codes are needed, this is how our module is structured:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;deep-illusion
 │   README.md
@@ -156,7 +154,7 @@ data_adversarial = data + perturbs
     |   test_utils.py
 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;sources-&#34;&gt;Sources&lt;/h2&gt;
+&lt;h2 id=&#34;sources-&#34;&gt;&lt;strong&gt;Sources&lt;/strong&gt;&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;

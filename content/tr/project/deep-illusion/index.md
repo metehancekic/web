@@ -42,7 +42,7 @@ slides: ""
 
 <br/>
 
-# Adversarial Machine Learning
+# **Adversarial Machine Learning** #
 
 With the advent of more powerful parallel computation units and huge data, we are able to train much more complex and expressive deep neural networks. That is said, deep neural nets (DNN) found its use in a wide variety of fields, ranging from computer vision to game playing agents. They are performing better on some tasks than even human experts in those fields. Despite their incredible success, it is by now well known that they are susceptible to small and carefully designed perturbations which are imperceptible to humans. The fact that DNN's can easily be fooled is a great problem since they are also used in security critical applications such as self-driving cars. Recently, research community has put a great effort to robustify neural networks against these adversarial examples. Despite great attention of research community, there is not a powerful defense mechanism found, and it is shown that defending against adversarial examples are not an easy goal. 
 
@@ -50,7 +50,9 @@ As another group working on this field, we share our attack codes as a library. 
 
 We are open to suggestions "metehancekic@ucsb.edu".
 
-# Deep Illusion #
+# **Deep Illusion** #
+
+Deepillusion saldırgan makine öğrenmesi için yazılmış bir kütüphanedir. Güncel sürüm sadece Pytorch modellerini desteklemektedir. 
 
 Deep Illusion is a toolbox for adversarial attacks in machine learning. Current version is only implemented for Pytorch models. DeepIllusion is a growing and developing python module which aims to help adversarial machine learning community to accelerate their research. Module currently includes complete implementation of well-known attacks (PGD, FGSM, R-FGSM, CW, BIM etc..). All attacks have an apex(amp) version which you can run your attacks fast and accurately. We strongly recommend that amp versions should only be used for adversarial training since it may have gradient masking issues after neural net gets confident about its decisions. All attack methods have an option (Verbose: False) to check if gradient masking is happening. 
 
@@ -60,19 +62,14 @@ We also include the most effective current approach to defend DNNs against adver
 
 Current version is tested with different defense methods and the standard models for verification and we observed the reported accuracies.
 
-Code can be installed via PyPi:
-```bash
-pip install deepillusion
-```
-
-Maintainers:
+Geliştirenler:
     [WCSL Lab](https://wcsl.ece.ucsb.edu), 
     [Metehan Cekic](https://www.ece.ucsb.edu/~metehancekic/), 
     [Can Bakiskan](https://wcsl.ece.ucsb.edu/people/can-bakiskan), 
     [Soorya Gopal](https://wcsl.ece.ucsb.edu/people/soorya-gopalakrishnan)
 
 
-## Dependencies #
+## **Dependencies** #
 
 > numpy                     1.16.4\
 > tqdm                      4.31.1
@@ -87,9 +84,9 @@ Maintainers:
 **jaxattacks**
 > jax
 
-## Installation #
+## **Kurma** #
 
-The most recent stable version can be installed via python package installer "pip", or you can clone it from the git page.
+En güncel sürümü aşağıdaki kodu kullanarak yükleyebilirsiniz:
 
 ```bash
 pip install deepillusion
@@ -99,7 +96,7 @@ or
 git clone git@github.com:metehancekic/deep-illusion.git
 ```
 
-## Example Use #
+## **Example Use** #
 
 As mentioned earlier, our adversarial methods are functional instead of modular type. Therefore, all you need to get the perturbations is feeding input data and its labels along with the attack parameters. 
 
@@ -142,7 +139,7 @@ fgsm_args = dict(net=model,
 perturbs = FGSM(**fgsm_args)
 data_adversarial = data + perturbs
 ```
-## Update #
+## **Update** #
 
 Deepillusion is a growing and developing library, therefore we strongly recommend to upgrade deepillusion regularly:
 
@@ -150,12 +147,12 @@ Deepillusion is a growing and developing library, therefore we strongly recommen
 pip install deepillusion --upgrade
 ```
 
-## Current Version #
+## **Current Version** #
 
 
 0.1.9
 
-## Module Structure #
+## **Module Structure** #
 
 In case investigation of the source codes are needed, this is how our module is structured:
 
@@ -206,7 +203,7 @@ deep-illusion
     |   test_utils.py
 
 ```
-## Sources #
+## **Sources** #
 
 - [PyPi page for the code](https://pypi.org/project/deepillusion/)
 
