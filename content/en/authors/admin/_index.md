@@ -75,5 +75,7 @@ email: "metehancekic@gmail.com"
 #- Researchers
 #- Visitors
 ---
+I received my B.S. degrees in Electrical and Electronics Engineering and Physics from Bogazici University, Istanbul, in 2017 and M.S degree in Electrical and Computer Engineering from University of California, Santa Barbara in 2019. I am currently a PhD student at UC Santa Barbara, working with Prof. Madhow in the WCS lab. I am currently a PhD student, working with [Prof. Upamanyu Madhow](https://wcsl.ece.ucsb.edu/people/upamanyu-madhow) in the Electrical and Computer Engineering department at UCSB. My research interests include machine learning, signal processing, and wireless communication. 
 
-I work with [Prof. Upamanyu Madhow](https://wcsl.ece.ucsb.edu/people/upamanyu-madhow) in the Electrical and Computer Engineering department at UCSB. My research interests include machine learning, signal processing, and wireless communication.
+Through my research experience, I have developed interests in Deep Learning and its applications. I have worked so for on various areas spanning from  Deep Learning in Natural language processing and Computer Vision to Deep Q learning for game playing agents. And Currently I devoted myself to further understand the nature of neural nets and improve the adversarial robustness of neural nets.
+
