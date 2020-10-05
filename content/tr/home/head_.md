@@ -15,7 +15,7 @@ color = "#ffffff"
 
 text_color_light = false
 
-image= "header_tr.png"
+image= "header.png"
 
 [design.spacing]
 # Customize the section spacing. Order is top, right, bottom, left.

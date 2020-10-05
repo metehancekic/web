@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Doktora Öğrencisi [WCSL Lab](https://wcsl.ece.ucsb.edu) 
+role: Doktora Adayı [WCSL Lab](https://wcsl.ece.ucsb.edu) 
 
 # Organizations/Affiliations
 organizations:

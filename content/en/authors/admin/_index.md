@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD Student in [WCSL Lab](https://wcsl.ece.ucsb.edu) 
+role: PhD Candidate in [WCSL Lab](https://wcsl.ece.ucsb.edu) 
 
 # Organizations/Affiliations
 organizations:
@@ -75,7 +75,7 @@ email: "metehancekic@gmail.com"
 #- Researchers
 #- Visitors
 ---
-I am currently a PhD student, working with [Prof. Upamanyu Madhow](https://wcsl.ece.ucsb.edu/people/upamanyu-madhow) in the Electrical and Computer Engineering department at UCSB. My research interests include machine learning, signal processing, and wireless communication. 
+I am currently a PhD candidate, working with [Prof. Upamanyu Madhow](https://wcsl.ece.ucsb.edu/people/upamanyu-madhow) in the Electrical and Computer Engineering department at UCSB. My research interests include machine learning, signal processing, and wireless communication. 
 
 Through my research experience, I have developed interests in Deep Learning and its applications. I have worked so far on various areas spanning from  Deep Learning in Natural language processing and Computer Vision to Deep Q learning for game playing agents. And Currently I devoted myself to further understand the nature of neural nets and improve the adversarial robustness of neural nets.
 
