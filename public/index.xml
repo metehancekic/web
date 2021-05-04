@@ -5,12 +5,324 @@
     <link>https://www.ece.ucsb.edu/~metehancekic/</link>
       <atom:link href="https://www.ece.ucsb.edu/~metehancekic/index.xml" rel="self" type="application/rss+xml" />
     <description>Metehan Cekic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 25 May 2020 14:31:54 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 03 May 2021 18:11:00 -0700</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
       <title>Metehan Cekic</title>
       <link>https://www.ece.ucsb.edu/~metehancekic/</link>
     </image>
+    
+    <item>
+      <title>Adversarial Toolbox</title>
+      <link>https://www.ece.ucsb.edu/~metehancekic/post/adversarial-toolbox/</link>
+      <pubDate>Mon, 03 May 2021 18:11:00 -0700</pubDate>
+      <guid>https://www.ece.ucsb.edu/~metehancekic/post/adversarial-toolbox/</guid>
+      <description>&lt;p&gt;\&lt;/p&gt;
+&lt;h1 id=&#34;adversarial-machine-learning&#34;&gt;Adversarial Machine Learning&lt;/h1&gt;
+&lt;p&gt;With the advent of more powerful parallel computation units and huge data, we are able to train much more complex and expressive deep neural networks. That is said, deep neural nets (DNN) found its use in a wide variety of fields, ranging from computer vision to game playing agents. They are performing better on some tasks than even human experts in those fields. Despite their incredible success, it is by now well known that they are susceptible to small and carefully designed perturbations which are imperceptible to humans. The fact that DNN&amp;rsquo;s can easily be fooled is a great problem since they are also used in security critical applications such as self-driving cars. Recently, research community has put a great effort to robustify neural networks against these adversarial examples. Despite great attention of research community, there is not a powerful defense mechanism found, and it is shown that defending against adversarial examples are not an easy goal.&lt;/p&gt;
+&lt;p&gt;As another group working on this field, we share our attack codes as a library. This library is a side product of our research, and since we use this in our research as well, we made sure it works correctly and as mentioned in the original papers. To sum up, deepillusion contains easy to use and properly implemented adversarial methods.&lt;/p&gt;
+&lt;p&gt;We are open to suggestions &amp;ldquo;&lt;a href=&#34;mailto:metehancekic@ucsb.edu&#34;&gt;metehancekic@ucsb.edu&lt;/a&gt;&amp;rdquo;.&lt;/p&gt;
+&lt;h1 id=&#34;deep-illusion-&#34;&gt;Deep Illusion&lt;/h1&gt;
+&lt;p&gt;Deep Illusion is a toolbox for adversarial attacks in machine learning. Current version is only implemented for Pytorch models. DeepIllusion is a growing and developing python module which aims to help adversarial machine learning community to accelerate their research. Module currently includes complete implementation of well-known attacks (PGD, FGSM, R-FGSM, CW, BIM etc..). All attacks have an apex(amp) version which you can run your attacks fast and accurately. We strongly recommend that amp versions should only be used for adversarial training since it may have gradient masking issues after neural net gets confident about its decisions. All attack methods have an option (Verbose: False) to check if gradient masking is happening.&lt;/p&gt;
+&lt;p&gt;All attack codes are written in functional programming style, therefore, users can easily call the method function and feed the input data and model to get perturbations. All codes are documented, and contains the example use in their description. Users can easily access the documentation by typing &amp;ldquo;??&amp;rdquo; at the and of the method they want to use in Ipython (E.g FGSM?? or PGD??). Output perturbations are already clipped for each image to prevent illegal pixel values. We are open to contributers to expand the attack methods arsenal.&lt;/p&gt;
+&lt;p&gt;We also include the most effective current approach to defend DNNs against adversarial perturbations which is training the network using adversarially perturbed examples. Adversarial training and testing methods are included in torchdefenses submodule.&lt;/p&gt;
+&lt;p&gt;Current version is tested with different defense methods and the standard models for verification and we observed the reported accuracies.&lt;/p&gt;
+&lt;p&gt;Maintainers:
+
+&lt;a href=&#34;https://wcsl.ece.ucsb.edu&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;WCSL Lab&lt;/a&gt;,
+
+&lt;a href=&#34;https://www.ece.ucsb.edu/~metehancekic/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Metehan Cekic&lt;/a&gt;,
+
+&lt;a href=&#34;https://wcsl.ece.ucsb.edu/people/can-bakiskan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Can Bakiskan&lt;/a&gt;,
+
+&lt;a href=&#34;https://wcsl.ece.ucsb.edu/people/soorya-gopalakrishnan&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Soorya Gopal&lt;/a&gt;,
+
+&lt;a href=&#34;https://wcsl.ece.ucsb.edu/people/ahmet-sezer&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Ahmet Dundar Sezer&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;dependencies-&#34;&gt;Dependencies&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;numpy                     1.16.4&lt;br&gt;
+tqdm                      4.31.1&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;torchattacks&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;pytorch                   1.4.0&lt;br&gt;
+apex                      0.1  (optional)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;tfattacks&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;tensorflow&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;jaxattacks&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;jax&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;installation-&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;The most recent stable version can be installed via python package installer &amp;ldquo;pip&amp;rdquo;, or you can clone it from the git page.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install deepillusion
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone git@github.com:metehancekic/deep-illusion.git
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;example-use-&#34;&gt;Example Use&lt;/h2&gt;
+&lt;p&gt;As mentioned earlier, our adversarial methods are functional instead of modular type. Therefore, all you need to get the perturbations is feeding input data and its labels along with the attack parameters.&lt;/p&gt;
+&lt;p&gt;To standardize the arguments for all attacks, methods accept attack parameters as a dictionary named as attack_params which contains the necessary parameters for each attack. Furthermore, attack methods get the data properties such as the maximum and the minimum pixel value as another dictionary named data_params. These dictinaries make function calls concise and standard for all methods.&lt;/p&gt;
+&lt;p&gt;Following code snippets show PGD and FGSM usage.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from deepillusion.torchattacks import PGD, FGSM, RFGSM
+
+##### PGD ######
+data_params = {&amp;quot;x_min&amp;quot;: 0., &amp;quot;x_max&amp;quot;: 1.}
+attack_params = {
+    &amp;quot;norm&amp;quot;: &amp;quot;inf&amp;quot;,
+    &amp;quot;eps&amp;quot;: 8./255,
+    &amp;quot;step_size&amp;quot;: 2./255,
+    &amp;quot;num_steps&amp;quot;: 7,
+    &amp;quot;random_start&amp;quot;: False,
+    &amp;quot;num_restarts&amp;quot;: 1}
+    
+pgd_args = dict(net=model,
+                x=data,
+                y_true=target,
+                data_params=data_params,
+                attack_params=attack_params,
+                verbose=False,
+                progress_bar=False)               
+perturbs = PGD(**pgd_args)
+data_adversarial = data + perturbs
+
+##### FGSM #####
+data_params = {&amp;quot;x_min&amp;quot;: 0., &amp;quot;x_max&amp;quot;: 1.}
+attack_params = {&amp;quot;norm&amp;quot;: &amp;quot;inf&amp;quot;,
+                 &amp;quot;eps&amp;quot;: 8./255}
+fgsm_args = dict(net=model,
+                 x=data,
+                 y_true=target,
+                 data_params=data_params,
+                 attack_params=attack_params)
+perturbs = FGSM(**fgsm_args)
+data_adversarial = data + perturbs
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Analysis tools come handy when one needs to evaluate his/her model against adversarial examples.
+Whitebox and blackbox test functions are inside analysis can be used as follow.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from deepillusion.torchattacks import PGD, FGSM, RFGSM, BIM, PGD_EOT
+from deepillusion.torchattacks.analysis import whitebox_test, substitute_test
+
+##### PGD ######
+data_params = dict(x_min= 0., 
+                   x_max=1.)
+                   
+attack_params = dict(norm=&amp;quot;inf&amp;quot;,
+                     eps=0.3,
+                     alpha=0.4,
+                     step_size=0.01,
+                     num_steps=100,
+                     random_start=False,
+                     num_restarts=1,
+                     EOT_size=20)
+
+attack_args = dict(data_params=data_params,
+                   attack_params=attack_params,
+                   loss_function=&amp;quot;cross_entropy&amp;quot;,
+                   verbose=False)
+
+adversarial_args = dict(attack=PGD,
+                        attack_args=attack_args)
+
+whitebox_test_args = dict(model=model,
+                          test_loader=test_loader,
+                          adversarial_args=adversarial_args,
+                          verbose=True,
+                          progress_bar=True)
+
+attack_loss, attack_acc = whitebox_test(**whitebox_test_args)
+
+substitute_test_args = dict(model=model,
+                            substitute_model=another_model,
+                            test_loader=test_loader,
+                            adversarial_args=adversarial_args,
+                            verbose=True,
+                            progress_bar=True)
+
+attack_loss, attack_acc = substitute_test(**substitute_test_args)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Last but not least, you can check if the perturbations are legal by using get_perturbation_stats:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from deepillusion.torchattacks.analysis import get_perturbation_stats
+
+get_perturbation_stats_args = dict(clean_data=clean_data, 
+                                   adversarial_data=adversarial_data, 
+                                   epsilon=epsilon, 
+                                   norm=&amp;quot;inf&amp;quot;, 
+                                   verbose=True)
+
+perturbation_properties = get_perturbation_stats(**get_perturbation_stats_args)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;update-&#34;&gt;Update&lt;/h2&gt;
+&lt;p&gt;Deepillusion is a growing and developing library, therefore we strongly recommend to upgrade deepillusion regularly:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install deepillusion --upgrade
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;current-version-&#34;&gt;Current Version&lt;/h2&gt;
+&lt;p&gt;0.3.2&lt;/p&gt;
+&lt;h2 id=&#34;module-structure-&#34;&gt;Module Structure&lt;/h2&gt;
+&lt;p&gt;In case investigation of the source codes are needed, this is how our module is structured:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;deep-illusion
+│   README.md
+│
+|───deepillusion
+|   |   _utils.py               Utility functions
+|   |
+|   |───torchattacks
+|   |   │   _fgsm.py                     Fast Gradient Sign Method
+|   |   │   _rfgsm.py                    Random Start + Fast Gradient Sign Method
+|   |   │   _pgd.py                      Projected Gradient Descent
+|   |   │   _bim.py                      Basic Iterative Method
+|   |   │   _soft_attacks.py             Soft attack functions
+|   |   │ 
+|   |   |───amp
+|   |   |   │   _fgsm.py                     Mixed Precision (Faster) - Fast Gradient Sign Method
+|   |   |   │   _rfgsm.py                    MP - Random Start + Fast Gradient Sign Method
+|   |   |   │   _cw.py                       MP - Carlini Wagner Linf
+|   |   |   │   _pgd.py                      MP - Projected Gradient Descent
+|   |   |   |   _soft_attacks.py             MP - Soft attack functions
+|   |   |
+|   |   └───analysis
+|   |       │   _perturbation_statistics     Perturbations statistics functions
+|   |       │   _evaluate                    Whitebox, blackbox evaluations codes (test functions)
+|   |       │   
+|   |       └───plot 
+|   |           │   _loss_landscape.py       loss landscape plotter
+|   |           │   
+|   |
+|   |───torchdefenses
+│   |   |   _adversarial_train.py       Adversarial Training - Adversarial Testing
+│   |   |   _trades_train.py            Trades Training - Trades Loss
+|   |   │   
+|   |   └───amp
+|   |       │   _adversarial_train.py     MP (Faster) - Adversarial Training - Adversarial Testing 
+|   |
+|   |───tfattacks
+|   |   |
+|   |
+|   └───jaxattacks
+|       |
+|
+└───tests
+    |   test_....py                         Test functions
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;sources-&#34;&gt;Sources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://pypi.org/project/deepillusion/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PyPi page for the code&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/metehancekic/deep-illusion&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git repo for the code&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Matplotlib Tutorial</title>
+      <link>https://www.ece.ucsb.edu/~metehancekic/post/matplotlib-tutorial/</link>
+      <pubDate>Mon, 03 May 2021 17:58:24 -0700</pubDate>
+      <guid>https://www.ece.ucsb.edu/~metehancekic/post/matplotlib-tutorial/</guid>
+      <description>&lt;h2 id=&#34;what-is-matplotlib&#34;&gt;What is Matplotlib&lt;/h2&gt;
+&lt;p&gt;Matplotlib is a library to visualize the stuff you are interested in. It offers a number of different visualization tools ranging from simple 1d plots to interactive 3d colorful plots. This blog is still in development and contains the visualization techniques that at some point I&amp;rsquo;ve used. Whenever I learn a new technique, I will add that to here.&lt;/p&gt;
+&lt;h1 id=&#34;installation&#34;&gt;Installation&lt;/h1&gt;
+&lt;p&gt;For conda users following command is good to go:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;conda install -c conda-forge matplotlib
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For old-school pip:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install matplotlib
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tensorboard for Pytorch</title>
+      <link>https://www.ece.ucsb.edu/~metehancekic/post/tensorboard-for-pytorch/</link>
+      <pubDate>Mon, 03 May 2021 17:22:31 -0700</pubDate>
+      <guid>https://www.ece.ucsb.edu/~metehancekic/post/tensorboard-for-pytorch/</guid>
+      <description>&lt;h2 id=&#34;tensorboard-usage-on-pytorch&#34;&gt;Tensorboard usage on Pytorch&lt;/h2&gt;
+&lt;p&gt;Firstly, install tensorboard via pip:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install tensorboard
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Call tensorboard with the following command on commandline (here &amp;ndash;logdir accepts the directory for the tensorboard data):&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;tensorboard --logdir=runs
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you are on a jupyter-notebook:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;%tensorboard --logdir=runs
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Dashboard can be accessed through this 
+&lt;a href=&#34;http://localhost:6006/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;On the other hand, if you are working on a remote server, you need to forward everything on the port 6006 of the server (in 127.0.0.1:6006) to local machine on the port 16006. This can be done by connecting to server with a small addition to the original ssh command.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;ssh -L 16006:127.0.0.1:6006 acc_name@server_ip
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then you will be able to connect the tensorboard of interest through following 
+&lt;a href=&#34;http://127.0.0.1:16006&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt; (http://127.0.0.1:16006) from your local device.&lt;/p&gt;
+&lt;p&gt;Then, you are good to go. Enjoy tracking the important statistics through training progress. Following code snippet helps you understand how to track the statistics of interest.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from torch.utils.tensorboard import SummaryWriter
+
+writer = SummaryWriter()
+
+for n_iter in range(100):
+    writer.add_scalar(&#39;Loss/train&#39;, np.random.random(), n_iter)
+    writer.add_scalars(&#39;run_14h&#39;, {&#39;xsinx&#39;:i*np.sin(i/r),
+                                   &#39;xcosx&#39;:i*np.cos(i/r),
+                                   &#39;tanx&#39;: np.tan(i/r)}, i)
+
+    x = np.random.random(1000)
+    writer.add_histogram(&#39;distribution centers&#39;, x + i, i)
+
+writer.close()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
+&lt;p&gt;For further details:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://pytorch.org/docs/stable/tensorboard.html&#34;&gt;https://pytorch.org/docs/stable/tensorboard.html&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/questions/37987839/how-can-i-run-tensorboard-on-a-remote-server&#34;&gt;https://stackoverflow.com/questions/37987839/how-can-i-run-tensorboard-on-a-remote-server&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Jupyter Notebook</title>
+      <link>https://www.ece.ucsb.edu/~metehancekic/post/jupyter-notebook/</link>
+      <pubDate>Mon, 03 May 2021 17:19:51 -0700</pubDate>
+      <guid>https://www.ece.ucsb.edu/~metehancekic/post/jupyter-notebook/</guid>
+      <description>&lt;h1 id=&#34;introduction-to-jupyter-notebook&#34;&gt;Introduction to Jupyter Notebook&lt;/h1&gt;
+&lt;p&gt;Personally, I like jupyter notebook a lot, since it offers plenty of useful tools to work on your code. Specifically, it enables you to test your code on the run by providing multiple cells which can be used to run specific parts of the code. In case, there are errors in some parts of the code, then you don&amp;rsquo;t need to rerun the whole code but only the part you have errors. Moreover, it offers a convenient way to visualize your code, to inspect the variables.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;ex.png&#34; alt=&#34;An example&#34; width=&#34;600&#34;
+height=&#34;320&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;For conda users following command is good to go:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;conda install -c conda-forge notebook
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For old-school pip:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install notebook
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+&lt;p&gt;In order to launch the notebook:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter notebook
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you are interested in using jupyter notebook through a specific port (9999 for instance):&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter notebook --port 9999
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After running the command, the main browser should open a tab for your notebooks, in case it doesn&amp;rsquo;t happen, you can just copy and paste the link printed in the command-line.&lt;/p&gt;
+&lt;h2 id=&#34;remote&#34;&gt;Remote&lt;/h2&gt;
+&lt;p&gt;If you want to access the notebooks in a remote machine, you need to forward everything on the port 9999 (the port you use for jupyter-notebook) of the server (in 127.0.0.1:9999) to local machine on the port 19999 (again this can be any port). This can be done by connecting to server with a small addition to the original ssh command.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;ssh -L 19999:127.0.0.1:9999 acc_name@server_ip
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then you will be able to connect the jupyter-notebook of interest through the following 
+&lt;a href=&#34;http://127.0.0.1:19999&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt; (http://127.0.0.1:19999) from your local device.&lt;/p&gt;
+&lt;p&gt;Congratulations, you can enjoy your notebook.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Adversarial Machine Learning</title>

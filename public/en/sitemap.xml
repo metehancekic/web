@@ -3,43 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.ece.ucsb.edu/~metehancekic/authors/admin/</loc>
-    <lastmod>2020-05-25T14:31:54-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/admin/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ece.ucsb.edu/~metehancekic/authors/admin/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://www.ece.ucsb.edu/~metehancekic/post/myadversarial-machine-learning/</loc>
-    <lastmod>2020-05-25T14:31:54-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.ece.ucsb.edu/~metehancekic/authors/</loc>
-    <lastmod>2020-05-25T14:31:54-07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="tr"
-                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.ece.ucsb.edu/~metehancekic/authors/"
-                />
+    <loc>https://www.ece.ucsb.edu/~metehancekic/post/adversarial-toolbox/</loc>
+    <lastmod>2021-05-03T18:11:00-07:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.ece.ucsb.edu/~metehancekic/</loc>
-    <lastmod>2020-05-25T14:31:54-07:00</lastmod>
+    <lastmod>2021-05-03T18:11:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="tr"
@@ -54,7 +24,7 @@
   
   <url>
     <loc>https://www.ece.ucsb.edu/~metehancekic/post/</loc>
-    <lastmod>2020-05-25T14:31:54-07:00</lastmod>
+    <lastmod>2021-05-03T18:11:00-07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="tr"
@@ -65,6 +35,56 @@
                 hreflang="en"
                 href="https://www.ece.ucsb.edu/~metehancekic/post/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/authors/admin/</loc>
+    <lastmod>2021-05-03T17:58:24-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/admin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/authors/admin/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/authors/</loc>
+    <lastmod>2021-05-03T17:58:24-07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="tr"
+                href="https://www.ece.ucsb.edu/~metehancekic/tr/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.ece.ucsb.edu/~metehancekic/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/post/matplotlib-tutorial/</loc>
+    <lastmod>2021-05-03T17:58:24-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/post/tensorboard-for-pytorch/</loc>
+    <lastmod>2021-05-03T17:22:31-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/post/jupyter-notebook/</loc>
+    <lastmod>2021-05-03T17:19:51-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.ece.ucsb.edu/~metehancekic/post/myadversarial-machine-learning/</loc>
+    <lastmod>2020-05-25T14:31:54-07:00</lastmod>
   </url>
   
   <url>

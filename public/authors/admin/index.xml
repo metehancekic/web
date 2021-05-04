@@ -5,12 +5,114 @@
     <link>https://www.ece.ucsb.edu/~metehancekic/authors/admin/</link>
       <atom:link href="https://www.ece.ucsb.edu/~metehancekic/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Metehan Cekic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 25 May 2020 14:31:54 -0700</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 03 May 2021 17:58:24 -0700</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=true) shape:circle]</url>
       <title>Metehan Cekic</title>
       <link>https://www.ece.ucsb.edu/~metehancekic/authors/admin/</link>
     </image>
+    
+    <item>
+      <title>Matplotlib Tutorial</title>
+      <link>https://www.ece.ucsb.edu/~metehancekic/post/matplotlib-tutorial/</link>
+      <pubDate>Mon, 03 May 2021 17:58:24 -0700</pubDate>
+      <guid>https://www.ece.ucsb.edu/~metehancekic/post/matplotlib-tutorial/</guid>
+      <description>&lt;h2 id=&#34;what-is-matplotlib&#34;&gt;What is Matplotlib&lt;/h2&gt;
+&lt;p&gt;Matplotlib is a library to visualize the stuff you are interested in. It offers a number of different visualization tools ranging from simple 1d plots to interactive 3d colorful plots. This blog is still in development and contains the visualization techniques that at some point I&amp;rsquo;ve used. Whenever I learn a new technique, I will add that to here.&lt;/p&gt;
+&lt;h1 id=&#34;installation&#34;&gt;Installation&lt;/h1&gt;
+&lt;p&gt;For conda users following command is good to go:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;conda install -c conda-forge matplotlib
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For old-school pip:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install matplotlib
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tensorboard for Pytorch</title>
+      <link>https://www.ece.ucsb.edu/~metehancekic/post/tensorboard-for-pytorch/</link>
+      <pubDate>Mon, 03 May 2021 17:22:31 -0700</pubDate>
+      <guid>https://www.ece.ucsb.edu/~metehancekic/post/tensorboard-for-pytorch/</guid>
+      <description>&lt;h2 id=&#34;tensorboard-usage-on-pytorch&#34;&gt;Tensorboard usage on Pytorch&lt;/h2&gt;
+&lt;p&gt;Firstly, install tensorboard via pip:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install tensorboard
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Call tensorboard with the following command on commandline (here &amp;ndash;logdir accepts the directory for the tensorboard data):&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;tensorboard --logdir=runs
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you are on a jupyter-notebook:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;%tensorboard --logdir=runs
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Dashboard can be accessed through this 
+&lt;a href=&#34;http://localhost:6006/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;On the other hand, if you are working on a remote server, you need to forward everything on the port 6006 of the server (in 127.0.0.1:6006) to local machine on the port 16006. This can be done by connecting to server with a small addition to the original ssh command.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;ssh -L 16006:127.0.0.1:6006 acc_name@server_ip
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then you will be able to connect the tensorboard of interest through following 
+&lt;a href=&#34;http://127.0.0.1:16006&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt; (http://127.0.0.1:16006) from your local device.&lt;/p&gt;
+&lt;p&gt;Then, you are good to go. Enjoy tracking the important statistics through training progress. Following code snippet helps you understand how to track the statistics of interest.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from torch.utils.tensorboard import SummaryWriter
+
+writer = SummaryWriter()
+
+for n_iter in range(100):
+    writer.add_scalar(&#39;Loss/train&#39;, np.random.random(), n_iter)
+    writer.add_scalars(&#39;run_14h&#39;, {&#39;xsinx&#39;:i*np.sin(i/r),
+                                   &#39;xcosx&#39;:i*np.cos(i/r),
+                                   &#39;tanx&#39;: np.tan(i/r)}, i)
+
+    x = np.random.random(1000)
+    writer.add_histogram(&#39;distribution centers&#39;, x + i, i)
+
+writer.close()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;references&#34;&gt;References&lt;/h1&gt;
+&lt;p&gt;For further details:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://pytorch.org/docs/stable/tensorboard.html&#34;&gt;https://pytorch.org/docs/stable/tensorboard.html&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/questions/37987839/how-can-i-run-tensorboard-on-a-remote-server&#34;&gt;https://stackoverflow.com/questions/37987839/how-can-i-run-tensorboard-on-a-remote-server&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Jupyter Notebook</title>
+      <link>https://www.ece.ucsb.edu/~metehancekic/post/jupyter-notebook/</link>
+      <pubDate>Mon, 03 May 2021 17:19:51 -0700</pubDate>
+      <guid>https://www.ece.ucsb.edu/~metehancekic/post/jupyter-notebook/</guid>
+      <description>&lt;h1 id=&#34;introduction-to-jupyter-notebook&#34;&gt;Introduction to Jupyter Notebook&lt;/h1&gt;
+&lt;p&gt;Personally, I like jupyter notebook a lot, since it offers plenty of useful tools to work on your code. Specifically, it enables you to test your code on the run by providing multiple cells which can be used to run specific parts of the code. In case, there are errors in some parts of the code, then you don&amp;rsquo;t need to rerun the whole code but only the part you have errors. Moreover, it offers a convenient way to visualize your code, to inspect the variables.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;ex.png&#34; alt=&#34;An example&#34; width=&#34;600&#34;
+height=&#34;320&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;For conda users following command is good to go:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;conda install -c conda-forge notebook
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For old-school pip:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install notebook
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
+&lt;p&gt;In order to launch the notebook:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter notebook
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you are interested in using jupyter notebook through a specific port (9999 for instance):&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter notebook --port 9999
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After running the command, the main browser should open a tab for your notebooks, in case it doesn&amp;rsquo;t happen, you can just copy and paste the link printed in the command-line.&lt;/p&gt;
+&lt;h2 id=&#34;remote&#34;&gt;Remote&lt;/h2&gt;
+&lt;p&gt;If you want to access the notebooks in a remote machine, you need to forward everything on the port 9999 (the port you use for jupyter-notebook) of the server (in 127.0.0.1:9999) to local machine on the port 19999 (again this can be any port). This can be done by connecting to server with a small addition to the original ssh command.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;ssh -L 19999:127.0.0.1:9999 acc_name@server_ip
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then you will be able to connect the jupyter-notebook of interest through the following 
+&lt;a href=&#34;http://127.0.0.1:19999&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt; (http://127.0.0.1:19999) from your local device.&lt;/p&gt;
+&lt;p&gt;Congratulations, you can enjoy your notebook.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Adversarial Machine Learning</title>
