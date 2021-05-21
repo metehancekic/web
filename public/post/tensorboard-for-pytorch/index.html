@@ -657,7 +657,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    2 min read
   </span>
   
 
@@ -696,10 +696,18 @@
   <div class="article-container">
 
     <div class="article-style">
-      <h2 id="tensorboard-usage-on-pytorch">Tensorboard usage on Pytorch</h2>
+      <h1 id="tensorboard-usage-on-pytorch">Tensorboard usage on Pytorch</h1>
+<p>One of my favorite tool in machine learning is Tensorboard which can be used to visualize a number of different statistics about your model. It has been always hard for me to interpret the behaviour of a neural network.</p>
+<p><img src="tens2.png" alt="An example" width="600"
+height="320"></p>
+<p>Taking a glance at the parameters or how they progress over the training procedure is always valuable, especially getting to know your model better enables you further improve the performance of the model. Tensorboard provides convenient and efficient tools to visualize your models&rsquo; statistics.</p>
+<p><img src="tensorboard-ex.png" alt="An example" width="600"
+height="320"></p>
+<h2 id="installation">Installation</h2>
 <p>Firstly, install tensorboard via pip:</p>
 <pre><code class="language-bash">pip install tensorboard
 </code></pre>
+<h2 id="usage">Usage</h2>
 <p>Call tensorboard with the following command on commandline (here &ndash;logdir accepts the directory for the tensorboard data):</p>
 <pre><code class="language-bash">tensorboard --logdir=runs
 </code></pre>
@@ -707,12 +715,15 @@
 <pre><code class="language-python">%tensorboard --logdir=runs
 </code></pre>
 <p>Dashboard can be accessed through this 
-<a href="http://localhost:6006/" target="_blank" rel="noopener">link</a></p>
-<p>On the other hand, if you are working on a remote server, you need to forward everything on the port 6006 of the server (in 127.0.0.1:6006) to local machine on the port 16006. This can be done by connecting to server with a small addition to the original ssh command.</p>
+<a href="http://localhost:6006/" target="_blank" rel="noopener">link</a> (http://localhost:6006/)</p>
+<h2 id="remote">Remote</h2>
+<p>On the other hand, if you are working on a remote server, you need to forward everything on the port 6006 of the server (in 127.0.0.1:6006) to the local machine on the port 16006 (again this can be any port). This can be done by connecting to server with a small addition to the original ssh command.</p>
 <pre><code class="language-bash">ssh -L 16006:127.0.0.1:6006 acc_name@server_ip
 </code></pre>
+<p>Here, &ldquo;-L&rdquo; option allows you to map a specific port on the server machine to your local machine&rsquo;s port.</p>
 <p>Then you will be able to connect the tensorboard of interest through following 
 <a href="http://127.0.0.1:16006" target="_blank" rel="noopener">link</a> (http://127.0.0.1:16006) from your local device.</p>
+<h2 id="example-usage">Example Usage</h2>
 <p>Then, you are good to go. Enjoy tracking the important statistics through training progress. Following code snippet helps you understand how to track the statistics of interest.</p>
 <pre><code class="language-python">from torch.utils.tensorboard import SummaryWriter
 

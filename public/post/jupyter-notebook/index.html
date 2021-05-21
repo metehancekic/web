@@ -711,16 +711,19 @@ height="320"></p>
 <p>In order to launch the notebook:</p>
 <pre><code class="language-bash">jupyter notebook
 </code></pre>
-<p>If you are interested in using jupyter notebook through a specific port (9999 for instance):</p>
-<pre><code class="language-bash">jupyter notebook --port 9999
+<p>If you are interested in using jupyter notebook through a specific port (8888 for instance):</p>
+<pre><code class="language-bash">jupyter notebook --port 8888
 </code></pre>
-<p>After running the command, the main browser should open a tab for your notebooks, in case it doesn&rsquo;t happen, you can just copy and paste the link printed in the command-line.</p>
+<p>If everything goes smooth, after running the command, the main browser should open a tab for your notebooks. On the other hand, if it doesn&rsquo;t happen, you can just copy and paste the link printed in the command-line.</p>
+<p><img src="jupy-term.png" alt="An example" width="600"
+height="320"></p>
 <h2 id="remote">Remote</h2>
-<p>If you want to access the notebooks in a remote machine, you need to forward everything on the port 9999 (the port you use for jupyter-notebook) of the server (in 127.0.0.1:9999) to local machine on the port 19999 (again this can be any port). This can be done by connecting to server with a small addition to the original ssh command.</p>
-<pre><code class="language-bash">ssh -L 19999:127.0.0.1:9999 acc_name@server_ip
+<p>If you want to access the notebooks in a remote machine, you need to forward everything on the port 8888 (the port you use for jupyter-notebook) of the server (in 127.0.0.1:8888) to local machine on the port 1234 (again this can be any port). This can be done by connecting to server with a small addition to the original ssh command.</p>
+<pre><code class="language-bash">ssh -L 1234:127.0.0.1:8888 acc_name@server_ip
 </code></pre>
+<p>Here, &ldquo;-L&rdquo; option allows you to map a specific port on the server machine to your local machine&rsquo;s port.</p>
 <p>Then you will be able to connect the jupyter-notebook of interest through the following 
-<a href="http://127.0.0.1:19999" target="_blank" rel="noopener">link</a> (http://127.0.0.1:19999) from your local device.</p>
+<a href="http://127.0.0.1:1234" target="_blank" rel="noopener">link</a> (http://127.0.0.1:1234) from your local device.</p>
 <p>Congratulations, you can enjoy your notebook.</p>
 
     </div>

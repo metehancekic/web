@@ -227,15 +227,50 @@ perturbation_properties = get_perturbation_stats(**get_perturbation_stats_args)
       <link>https://www.ece.ucsb.edu/~metehancekic/post/matplotlib-tutorial/</link>
       <pubDate>Mon, 03 May 2021 17:58:24 -0700</pubDate>
       <guid>https://www.ece.ucsb.edu/~metehancekic/post/matplotlib-tutorial/</guid>
-      <description>&lt;h2 id=&#34;what-is-matplotlib&#34;&gt;What is Matplotlib&lt;/h2&gt;
+      <description>&lt;h1 id=&#34;what-is-matplotlib&#34;&gt;What is Matplotlib&lt;/h1&gt;
 &lt;p&gt;Matplotlib is a library to visualize the stuff you are interested in. It offers a number of different visualization tools ranging from simple 1d plots to interactive 3d colorful plots. This blog is still in development and contains the visualization techniques that at some point I&amp;rsquo;ve used. Whenever I learn a new technique, I will add that to here.&lt;/p&gt;
-&lt;h1 id=&#34;installation&#34;&gt;Installation&lt;/h1&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 &lt;p&gt;For conda users following command is good to go:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;conda install -c conda-forge matplotlib
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;For old-school pip:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install matplotlib
 &lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+&lt;p&gt;In order to plot multiple images and use a common colorbar, we can use following codes. I&amp;rsquo;ve tried to explain every functionality I&amp;rsquo;ve used.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import numpy as np
+import matplotlib
+import matplotlib.pyplot as plt
+import matplotlib.gridspec as gridspec
+matplotlib.rc(&#39;text&#39;, usetex=False)
+
+
+filters = np.random.randn(25,5,5)
+
+min_weight = np.min(filters)
+max_weight = np.max(filters)
+
+fig, axes = plt.subplots(nrows=5, ncols=5, figsize=(7, 7))
+
+for i, ax in enumerate(axes.flat):
+    ax.set_axis_off() # since I am plotting images, I don&#39;t want to see axis numbers.
+    im = ax.imshow(filters[i], cmap=&#39;viridis&#39;,
+                   vmin=min_weight, vmax=max_weight)
+
+fig.subplots_adjust(bottom=0.1, top=0.9, left=0.1, right=0.8,
+                    wspace=0.04, hspace=0.04)
+
+cb_ax = fig.add_axes([0.83, 0.1, 0.02, 0.8])
+cbar = fig.colorbar(im, cax=cb_ax)
+
+#set the colorbar ticks and tick labels
+cbar.set_ticks(np.arange(min_weight, max_weight, (max_weight-min_weight-0.001)/2))
+cbar.set_ticklabels([min_weight, (max_weight+min_weight)/2, max_weight])
+
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;sub-images.png&#34; alt=&#34;An example&#34; width=&#34;600&#34;
+height=&#34;320&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -244,10 +279,18 @@ perturbation_properties = get_perturbation_stats(**get_perturbation_stats_args)
       <link>https://www.ece.ucsb.edu/~metehancekic/post/tensorboard-for-pytorch/</link>
       <pubDate>Mon, 03 May 2021 17:22:31 -0700</pubDate>
       <guid>https://www.ece.ucsb.edu/~metehancekic/post/tensorboard-for-pytorch/</guid>
-      <description>&lt;h2 id=&#34;tensorboard-usage-on-pytorch&#34;&gt;Tensorboard usage on Pytorch&lt;/h2&gt;
+      <description>&lt;h1 id=&#34;tensorboard-usage-on-pytorch&#34;&gt;Tensorboard usage on Pytorch&lt;/h1&gt;
+&lt;p&gt;One of my favorite tool in machine learning is Tensorboard which can be used to visualize a number of different statistics about your model. It has been always hard for me to interpret the behaviour of a neural network.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;tens2.png&#34; alt=&#34;An example&#34; width=&#34;600&#34;
+height=&#34;320&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Taking a glance at the parameters or how they progress over the training procedure is always valuable, especially getting to know your model better enables you further improve the performance of the model. Tensorboard provides convenient and efficient tools to visualize your models&amp;rsquo; statistics.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;tensorboard-ex.png&#34; alt=&#34;An example&#34; width=&#34;600&#34;
+height=&#34;320&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
 &lt;p&gt;Firstly, install tensorboard via pip:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install tensorboard
 &lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
 &lt;p&gt;Call tensorboard with the following command on commandline (here &amp;ndash;logdir accepts the directory for the tensorboard data):&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;tensorboard --logdir=runs
 &lt;/code&gt;&lt;/pre&gt;
@@ -255,12 +298,15 @@ perturbation_properties = get_perturbation_stats(**get_perturbation_stats_args)
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;%tensorboard --logdir=runs
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Dashboard can be accessed through this 
-&lt;a href=&#34;http://localhost:6006/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;On the other hand, if you are working on a remote server, you need to forward everything on the port 6006 of the server (in 127.0.0.1:6006) to local machine on the port 16006. This can be done by connecting to server with a small addition to the original ssh command.&lt;/p&gt;
+&lt;a href=&#34;http://localhost:6006/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt; (http://localhost:6006/)&lt;/p&gt;
+&lt;h2 id=&#34;remote&#34;&gt;Remote&lt;/h2&gt;
+&lt;p&gt;On the other hand, if you are working on a remote server, you need to forward everything on the port 6006 of the server (in 127.0.0.1:6006) to the local machine on the port 16006 (again this can be any port). This can be done by connecting to server with a small addition to the original ssh command.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;ssh -L 16006:127.0.0.1:6006 acc_name@server_ip
 &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here, &amp;ldquo;-L&amp;rdquo; option allows you to map a specific port on the server machine to your local machine&amp;rsquo;s port.&lt;/p&gt;
 &lt;p&gt;Then you will be able to connect the tensorboard of interest through following 
 &lt;a href=&#34;http://127.0.0.1:16006&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt; (http://127.0.0.1:16006) from your local device.&lt;/p&gt;
+&lt;h2 id=&#34;example-usage&#34;&gt;Example Usage&lt;/h2&gt;
 &lt;p&gt;Then, you are good to go. Enjoy tracking the important statistics through training progress. Following code snippet helps you understand how to track the statistics of interest.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from torch.utils.tensorboard import SummaryWriter
 
@@ -310,16 +356,19 @@ height=&#34;320&#34;&gt;&lt;/p&gt;
 &lt;p&gt;In order to launch the notebook:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter notebook
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;If you are interested in using jupyter notebook through a specific port (9999 for instance):&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter notebook --port 9999
+&lt;p&gt;If you are interested in using jupyter notebook through a specific port (8888 for instance):&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter notebook --port 8888
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;After running the command, the main browser should open a tab for your notebooks, in case it doesn&amp;rsquo;t happen, you can just copy and paste the link printed in the command-line.&lt;/p&gt;
+&lt;p&gt;If everything goes smooth, after running the command, the main browser should open a tab for your notebooks. On the other hand, if it doesn&amp;rsquo;t happen, you can just copy and paste the link printed in the command-line.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;jupy-term.png&#34; alt=&#34;An example&#34; width=&#34;600&#34;
+height=&#34;320&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;remote&#34;&gt;Remote&lt;/h2&gt;
-&lt;p&gt;If you want to access the notebooks in a remote machine, you need to forward everything on the port 9999 (the port you use for jupyter-notebook) of the server (in 127.0.0.1:9999) to local machine on the port 19999 (again this can be any port). This can be done by connecting to server with a small addition to the original ssh command.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;ssh -L 19999:127.0.0.1:9999 acc_name@server_ip
+&lt;p&gt;If you want to access the notebooks in a remote machine, you need to forward everything on the port 8888 (the port you use for jupyter-notebook) of the server (in 127.0.0.1:8888) to local machine on the port 1234 (again this can be any port). This can be done by connecting to server with a small addition to the original ssh command.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;ssh -L 1234:127.0.0.1:8888 acc_name@server_ip
 &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here, &amp;ldquo;-L&amp;rdquo; option allows you to map a specific port on the server machine to your local machine&amp;rsquo;s port.&lt;/p&gt;
 &lt;p&gt;Then you will be able to connect the jupyter-notebook of interest through the following 
-&lt;a href=&#34;http://127.0.0.1:19999&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt; (http://127.0.0.1:19999) from your local device.&lt;/p&gt;
+&lt;a href=&#34;http://127.0.0.1:1234&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt; (http://127.0.0.1:1234) from your local device.&lt;/p&gt;
 &lt;p&gt;Congratulations, you can enjoy your notebook.&lt;/p&gt;
 </description>
     </item>

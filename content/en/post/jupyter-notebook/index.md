@@ -58,23 +58,28 @@ In order to launch the notebook:
 jupyter notebook
 ```
 
-If you are interested in using jupyter notebook through a specific port (9999 for instance):
+If you are interested in using jupyter notebook through a specific port (8888 for instance):
 
 ```bash
-jupyter notebook --port 9999
+jupyter notebook --port 8888
 ```
 
-After running the command, the main browser should open a tab for your notebooks, in case it doesn't happen, you can just copy and paste the link printed in the command-line.
+If everything goes smooth, after running the command, the main browser should open a tab for your notebooks. On the other hand, if it doesn't happen, you can just copy and paste the link printed in the command-line.
+
+<img src="jupy-term.png" alt="An example" width="600"
+         height="320">
 
 ## Remote
 
-If you want to access the notebooks in a remote machine, you need to forward everything on the port 9999 (the port you use for jupyter-notebook) of the server (in 127.0.0.1:9999) to local machine on the port 19999 (again this can be any port). This can be done by connecting to server with a small addition to the original ssh command.
+If you want to access the notebooks in a remote machine, you need to forward everything on the port 8888 (the port you use for jupyter-notebook) of the server (in 127.0.0.1:8888) to local machine on the port 1234 (again this can be any port). This can be done by connecting to server with a small addition to the original ssh command.
 
 ```bash
-ssh -L 19999:127.0.0.1:9999 acc_name@server_ip
+ssh -L 1234:127.0.0.1:8888 acc_name@server_ip
 ```
 
-Then you will be able to connect the jupyter-notebook of interest through the following [link](http://127.0.0.1:19999) (http://127.0.0.1:19999) from your local device.
+Here, "-L" option allows you to map a specific port on the server machine to your local machine's port.
+
+Then you will be able to connect the jupyter-notebook of interest through the following [link](http://127.0.0.1:1234) (http://127.0.0.1:1234) from your local device.
 
 
 Congratulations, you can enjoy your notebook.
